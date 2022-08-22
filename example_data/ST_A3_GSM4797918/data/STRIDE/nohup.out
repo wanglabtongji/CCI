@@ -1,0 +1,44 @@
+nohup: ignoring input
+/fs/home/liuzhaoyang/.local/lib/python3.8/site-packages/anndata/_core/anndata.py:1220: FutureWarning: The `inplace` parameter in pandas.Categorical.reorder_categories is deprecated and will be removed in a future version. Removing unused categories will always return a new Categorical object.
+  c.reorder_categories(natsorted(c.categories), inplace=True)
+... storing 'Celltype' as categorical
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Reading spatial count matrix...
+Reading single-cell count matrix...
+Identifying markers...
+Training topic model...
+Selecting the optimal model.
+Number of topics: 8
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 9
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 10
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 11
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 12
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 13
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 14
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 15
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 16
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 17
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 18
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 19
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 20
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 21
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 22
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 23
+WARNING: too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+Number of topics: 24
+Deconvolving spatial transcriptomics...
