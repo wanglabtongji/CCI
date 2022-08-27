@@ -1,0 +1,2 @@
+screen -x stlearn -p 0 -X stuff "cd /fs/home/liuzhaoyang/project/cci_evaluation/human_intestinal/ST_A3_GSM4797918 && nohup time -v python /fs/home/liuzhaoyang/project/cci_evaluation/scripts/run_stlearn.py -c ./data/processed/st_counts.tsv -p ./data/processed/st_coord.tsv -d ./data/STRIDE/STRIDE_spot_celltype_frac.txt -o ./tools/stlearn/output > ./tools/stlearn/script/stlearn_nohup.out 2>&1 &
+"

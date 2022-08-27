@@ -1,0 +1,2 @@
+screen -x domino -p 0 -X stuff "cd /fs/home/liuzhaoyang/project/cci_evaluation/human_intestinal/ST_A3_GSM4797918 && nohup time -v Rscript /fs/home/liuzhaoyang/project/cci_evaluation/scripts/run_domino.R -r ./data/processed/sc_res.rds -s ./tools/Domino/SCENIC/scenicdata -f n -o ./tools/Domino/output/ > ./tools/Domino/script/Domino_nohup.out 2>&1 &
+"

@@ -1,0 +1,13 @@
+cell_type	microenvironment
+Epithelial	env_1
+Myofibroblast_Mesothelium	env_2
+Fibroblasts	env_2
+Pericytes	env_2
+Endothelial	env_2
+Immune	env_2
+Muscle	env_3
+Neural	env_3
+Fibroblasts	env_3
+Pericytes	env_3
+Endothelial	env_3
+Immune	env_3

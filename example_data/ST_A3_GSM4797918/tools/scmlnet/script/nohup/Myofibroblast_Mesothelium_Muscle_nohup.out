@@ -1,0 +1,72 @@
+nohup: ignoring input
+Attaching SeuratObject
+[1] "############ ------------- scmlnet --------------- ############"
+[1] ">>> loading library and data <<< [2022-08-03 01:36:54]"
+[1] ">>> start workflow for each cell type <<< [2022-08-03 01:37:13]"
+[1] ">>> start Myofibroblast_Mesothelium_Muscle <<< [2022-08-03 01:37:13]"
+[1] "check table cell:"
+[1] 4800    2
+[1] "Rec Cluster:"
+[1] "Muscle"
+[1] "Lig Cluster:"
+[1] "Myofibroblast_Mesothelium"
+[1] "p val:"
+[1] 0.1
+[1] "logfc:"
+[1] 0.1
+[1] "get High Exp Gene in Muscle"
+[1] "Muscle:196"
+[1] "gene:16671"
+[1] "logfc.threshold:"
+[1] 0.1
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[1] "do T-test"
+[1] "find high gene num:701"
+[1] "-----------------------"
+[1] "get High Exp Gene in Myofibroblast_Mesothelium"
+[1] "Myofibroblast_Mesothelium:612"
+[1] "gene:16671"
+[1] "logfc.threshold:"
+[1] 0.1
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[1] "do T-test"
+[1] "find high gene num:1130"
+[1] "-----------------------"
+[1] "Lig_Rec Num:28"
+[1] "TF_Target Num:38"
+[1] "XZRec_XZTF Num:40"
+[1] "Rec common in LigRec and RecTF:"
+Error in RunMLnet(count_df, meta_path, RecClu, LigClu, pval, logfc, LigRecLib,  : 
+  error:LigRec and RecTF don't have the same Rec!
+Calls: run_scmlnet -> RunMLnet
+Execution halted
+Command exited with non-zero status 1
+	Command being timed: "Rscript /fs/home/liuzhaoyang/project/cci_evaluation/scripts/run_scmlnet_multi.R -a Myofibroblast_Mesothelium -b Muscle -c ./data/processed/sc_counts.tsv -m ./tools/scmlnet/scmlnet_meta.tsv -n 1 -o ./tools/scmlnet/output/"
+	User time (seconds): 32.83
+	System time (seconds): 13.60
+	Percent of CPU this job got: 147%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:31.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2345184
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1037271
+	Voluntary context switches: 625
+	Involuntary context switches: 254036
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 1

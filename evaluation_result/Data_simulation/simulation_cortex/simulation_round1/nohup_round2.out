@@ -1,0 +1,10 @@
+nohup: ignoring input
+> filtering ips
+L6_IT|L5_IT - near - 11 ips kept
+L4|L5_IT - near - 12 ips kept
+Sst|L6_IT - near - 8 ips kept
+L5_IT|L6_IT - near - 11 ips kept
+L5_IT|L4 - near - 12 ips kept
+L6_IT|Sst - near - 11 ips kept
+L6_IT|L4 - near - 10 ips kept
+L4|L6_IT - near - 11 ips kept

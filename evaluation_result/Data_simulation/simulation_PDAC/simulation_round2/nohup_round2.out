@@ -1,0 +1,8 @@
+nohup: ignoring input
+> filtering ips
+Malignant_2|Malignant_1 - near - 12 ips kept
+Malignant_1|Malignant_2 - near - 11 ips kept
+Endothelial|Malignant_1 - far - 6 ips kept
+Malignant_2|Endothelial - far - 8 ips kept
+Endothelial|Malignant_2 - far - 6 ips kept
+Malignant_1|Endothelial - far - 3 ips kept

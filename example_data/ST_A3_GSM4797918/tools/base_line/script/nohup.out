@@ -1,0 +1,63 @@
+/fs/home/liuzhaoyang/.local/lib/python3.8/site-packages/pandas/core/indexing.py:1951: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self.obj[selected_item_labels] = value
+dict_keys(['Muscle|Neural', 'Neural|Muscle', 'Muscle|Fibroblasts', 'Fibroblasts|Muscle', 'Muscle|Epithelial', 'Epithelial|Muscle', 'Muscle|Endothelial', 'Endothelial|Muscle', 'Muscle|Pericytes', 'Pericytes|Muscle', 'Muscle|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Muscle', 'Neural|Fibroblasts', 'Fibroblasts|Neural', 'Neural|Epithelial', 'Epithelial|Neural', 'Neural|Endothelial', 'Endothelial|Neural', 'Neural|Pericytes', 'Pericytes|Neural', 'Neural|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Neural', 'Fibroblasts|Epithelial', 'Epithelial|Fibroblasts', 'Fibroblasts|Endothelial', 'Endothelial|Fibroblasts', 'Fibroblasts|Pericytes', 'Pericytes|Fibroblasts', 'Fibroblasts|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Fibroblasts', 'Epithelial|Endothelial', 'Endothelial|Epithelial', 'Epithelial|Pericytes', 'Pericytes|Epithelial', 'Epithelial|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Epithelial', 'Endothelial|Pericytes', 'Pericytes|Endothelial', 'Endothelial|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Endothelial', 'Pericytes|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Pericytes'])
+Pericytes|Epithelial in
+Pericytes|Neural in
+Pericytes|Muscle in
+Pericytes|Myofibroblast_Mesothelium in
+Pericytes|Fibroblasts in
+Pericytes|Endothelial in
+Pericytes|Immune out
+Epithelial|Pericytes in
+Epithelial|Neural in
+Epithelial|Muscle in
+Epithelial|Myofibroblast_Mesothelium in
+Epithelial|Fibroblasts in
+Epithelial|Endothelial in
+Epithelial|Immune out
+Neural|Pericytes in
+Neural|Epithelial in
+Neural|Muscle in
+Neural|Myofibroblast_Mesothelium in
+Neural|Fibroblasts in
+Neural|Endothelial in
+Neural|Immune out
+Muscle|Pericytes in
+Muscle|Epithelial in
+Muscle|Neural in
+Muscle|Myofibroblast_Mesothelium in
+Muscle|Fibroblasts in
+Muscle|Endothelial in
+Muscle|Immune out
+Myofibroblast_Mesothelium|Pericytes in
+Myofibroblast_Mesothelium|Epithelial in
+Myofibroblast_Mesothelium|Neural in
+Myofibroblast_Mesothelium|Muscle in
+Myofibroblast_Mesothelium|Fibroblasts in
+Myofibroblast_Mesothelium|Endothelial in
+Myofibroblast_Mesothelium|Immune out
+Fibroblasts|Pericytes in
+Fibroblasts|Epithelial in
+Fibroblasts|Neural in
+Fibroblasts|Muscle in
+Fibroblasts|Myofibroblast_Mesothelium in
+Fibroblasts|Endothelial in
+Fibroblasts|Immune out
+Endothelial|Pericytes in
+Endothelial|Epithelial in
+Endothelial|Neural in
+Endothelial|Muscle in
+Endothelial|Myofibroblast_Mesothelium in
+Endothelial|Fibroblasts in
+Endothelial|Immune out
+Immune|Pericytes out
+Immune|Epithelial out
+Immune|Neural out
+Immune|Muscle out
+Immune|Myofibroblast_Mesothelium out
+Immune|Fibroblasts out
+Immune|Endothelial out

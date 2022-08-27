@@ -1,0 +1,70 @@
+near(0): 43; far(1): 10; mid(2): 25
+> all near celltypes
+['L6_CT|Oligo', 'L6_CT|Pvalb', 'L6_CT|L5_IT', 'L6_CT|L5_PT', 'L6_CT|L6b', 'L6_CT|L4', 'L6_CT|L6_IT', 'Macrophage|L2_3_IT', 'Macrophage|Oligo', 'Macrophage|Sst', 'Macrophage|L5_IT', 'Macrophage|L6b', 'Macrophage|L6_IT', 'L2_3_IT|Oligo', 'L2_3_IT|Astro', 'L2_3_IT|VLMC', 'L2_3_IT|Sst', 'L2_3_IT|L5_IT', 'L2_3_IT|L6b', 'L2_3_IT|L4', 'L2_3_IT|L6_IT', 'Oligo|Pvalb', 'Oligo|Astro', 'Oligo|Sst', 'Oligo|L5_IT', 'Oligo|L5_PT', 'Oligo|L6b', 'Oligo|L4', 'Oligo|L6_IT', 'Pvalb|L5_IT', 'Pvalb|L5_PT', 'Pvalb|L4', 'Pvalb|L6_IT', 'Astro|Sst', 'Sst|L5_PT', 'Sst|L6_IT', 'L5_IT|L5_PT', 'L5_IT|L6b', 'L5_IT|L4', 'L5_IT|L6_IT', 'L5_PT|L4', 'L6b|L6_IT', 'L4|L6_IT']
+> all far celltypes
+['L6_CT|Astro', 'L6_CT|VLMC', 'L6_CT|Sst', 'Pvalb|VLMC', 'Pvalb|Sst', 'VLMC|L5_IT', 'VLMC|L5_PT', 'VLMC|L6b', 'VLMC|L6_IT', 'L5_PT|L6b']
+> target celltypes
+L4, L5_IT, Sst, L6_IT
+> 453 spots are selected
+> spot number of target celltypes
+L4: 225,
+L5_IT: 64,
+Sst: 74,
+L6_IT: 90,
+> randomly selected cell number of target celltypes
+L4: 878,
+L5_IT: 179,
+Sst: 318,
+L6_IT: 279,
+> 1654 cells are randomly selected
+> near celltype pairs
+L4|L5_IT
+L5_IT|L4
+L4|L6_IT
+L5_IT|L6_IT
+L6_IT|L5_IT
+Sst|L6_IT
+L6_IT|L4
+L6_IT|Sst
+> far celltype pairs
+
+after filtering, 12658 genes are left
+after filtering, 987 interactions are kept
+> simulation start
+> simulation done
+> 1654 cells are mapped
+near(0): 43; far(1): 10; mid(2): 25
+> all near celltypes
+['Sst|L5_PT', 'Sst|Macrophage', 'Sst|L2_3_IT', 'Sst|Oligo', 'Sst|Astro', 'Sst|L6_IT', 'L5_PT|L4', 'L5_PT|Pvalb', 'L5_PT|L5_IT', 'L5_PT|Oligo', 'L5_PT|L6_CT', 'L6b|Macrophage', 'L6b|L2_3_IT', 'L6b|L5_IT', 'L6b|Oligo', 'L6b|L6_CT', 'L6b|L6_IT', 'L4|L2_3_IT', 'L4|Pvalb', 'L4|L5_IT', 'L4|Oligo', 'L4|L6_CT', 'L4|L6_IT', 'Macrophage|L2_3_IT', 'Macrophage|L5_IT', 'Macrophage|Oligo', 'Macrophage|L6_IT', 'L2_3_IT|L5_IT', 'L2_3_IT|VLMC', 'L2_3_IT|Oligo', 'L2_3_IT|Astro', 'L2_3_IT|L6_IT', 'Pvalb|L5_IT', 'Pvalb|Oligo', 'Pvalb|L6_CT', 'Pvalb|L6_IT', 'L5_IT|Oligo', 'L5_IT|L6_CT', 'L5_IT|L6_IT', 'Oligo|Astro', 'Oligo|L6_CT', 'Oligo|L6_IT', 'L6_CT|L6_IT']
+> all far celltypes
+['Sst|Pvalb', 'Sst|L6_CT', 'L5_PT|L6b', 'L5_PT|VLMC', 'L6b|VLMC', 'Pvalb|VLMC', 'L5_IT|VLMC', 'VLMC|L6_CT', 'VLMC|L6_IT', 'Astro|L6_CT']
+> target celltypes
+L4, L5_IT, Sst, L6_IT
+> 453 spots are selected
+> spot number of target celltypes
+L4: 225,
+L5_IT: 64,
+Sst: 74,
+L6_IT: 90,
+> randomly selected cell number of target celltypes
+L4: 878,
+L5_IT: 179,
+Sst: 318,
+L6_IT: 279,
+> 1654 cells are randomly selected
+> near celltype pairs
+L4|L6_IT
+L5_IT|L4
+L6_IT|Sst
+L5_IT|L6_IT
+Sst|L6_IT
+L6_IT|L4
+L6_IT|L5_IT
+L4|L5_IT
+> far celltype pairs
+
+after filtering, 12658 genes are left
+after filtering, 987 interactions are kept
+> simulation start
+> simulation done
+> 1654 cells are mapped

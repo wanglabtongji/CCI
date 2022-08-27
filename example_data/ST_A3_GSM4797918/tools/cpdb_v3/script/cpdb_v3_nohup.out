@@ -1,0 +1,41 @@
+nohup: ignoring input
+[ ][APP][01/08/22-22:46:22][WARNING] User selected database `/fs/home/liuzhaoyang/data/cc_ip/cellphonedb_user_2021-01-12-18_19.db` is available, using it
+[ ][CORE][01/08/22-22:46:22][INFO] Initializing SqlAlchemy CellPhoneDB Core
+[ ][CORE][01/08/22-22:46:22][INFO] Using custom database at /fs/home/liuzhaoyang/data/cc_ip/cellphonedb_user_2021-01-12-18_19.db
+[ ][APP][01/08/22-22:46:22][INFO] Launching Method cpdb_statistical_analysis_local_method_launcher
+[ ][APP][01/08/22-22:46:22][INFO] Launching Method _set_paths
+[ ][APP][01/08/22-22:46:22][INFO] Launching Method _load_meta_counts
+[ ][APP][01/08/22-22:46:34][INFO] Launching Method _check_counts_data
+[ ][APP][01/08/22-22:46:34][INFO] Launching Method _load_microenvs
+[ ][CORE][01/08/22-22:46:34][INFO] Launching Method cpdb_statistical_analysis_launcher
+[ ][CORE][01/08/22-22:46:34][INFO] Launching Method _counts_validations
+[ ][CORE][01/08/22-22:46:34][INFO] Launching Method get_interactions_genes_complex
+[ ][CORE][01/08/22-22:46:34][INFO] [Cluster Statistical Analysis] Threshold:0.1 Iterations:1000 Debug-seed:-1 Threads:4 Precision:3
+[ ][CORE][01/08/22-22:46:36][INFO] Running Real Analysis
+[ ][CORE][01/08/22-22:46:36][INFO] Limiting cluster combinations using microenvironments
+[ ][CORE][01/08/22-22:46:36][INFO] Running Statistical Analysis
+[ ][CORE][01/08/22-22:56:08][INFO] Building Pvalues result
+[ ][CORE][01/08/22-22:56:08][INFO] Building results
+	Command being timed: "cellphonedb method statistical_analysis ./data/processed/sc_meta.tsv ./data/processed/sc_norm.tsv --counts-data gene_name --output-path ./tools/cpdb_v3/output --threads 4 --database /fs/home/liuzhaoyang/data/cc_ip/cellphonedb_user_2021-01-12-18_19.db --microenvs ./tools/cpdb_v3/microenvs.txt"
+	User time (seconds): 2281.72
+	System time (seconds): 15.71
+	Percent of CPU this job got: 391%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:47.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2124552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2177954
+	Voluntary context switches: 9616
+	Involuntary context switches: 780
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 936
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

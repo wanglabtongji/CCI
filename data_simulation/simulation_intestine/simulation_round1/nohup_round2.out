@@ -1,0 +1,12 @@
+nohup: ignoring input
+> filtering ips
+Muscle|Endothelium - near - 12 ips kept
+Neural|Muscle - near - 10 ips kept
+Endothelium|Neural - near - 13 ips kept
+Muscle|Neural - near - 6 ips kept
+Neural|Endothelium - near - 13 ips kept
+Endothelium|Muscle - near - 12 ips kept
+Neural|Myofibroblast_Mesothelium - far - 13 ips kept
+Myofibroblast_Mesothelium|Neural - far - 14 ips kept
+Myofibroblast_Mesothelium|Endothelium - far - 12 ips kept
+Endothelium|Myofibroblast_Mesothelium - far - 13 ips kept

@@ -1,0 +1,72 @@
+near(0): 8; far(1): 2; mid(2): 5
+> all near celltypes
+['Epithelial|Fibroblasts', 'Epithelial|Muscle', 'Fibroblasts|Muscle', 'Fibroblasts|Neural', 'Fibroblasts|Endothelium', 'Muscle|Neural', 'Muscle|Endothelium', 'Neural|Endothelium']
+> all far celltypes
+['Neural|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Endothelium']
+> target celltypes
+Myofibroblast_Mesothelium, Neural, Endothelium, Muscle
+> 280 spots are selected
+> spot number of target celltypes
+Myofibroblast_Mesothelium: 10,
+Neural: 81,
+Endothelium: 13,
+Muscle: 176,
+> randomly selected cell number of target celltypes
+Myofibroblast_Mesothelium: 39,
+Neural: 227,
+Endothelium: 56,
+Muscle: 546,
+> 868 cells are randomly selected
+> near celltype pairs
+Endothelium|Neural
+Neural|Endothelium
+Neural|Muscle
+Muscle|Neural
+Endothelium|Muscle
+Muscle|Endothelium
+> far celltype pairs
+Endothelium|Myofibroblast_Mesothelium
+Neural|Myofibroblast_Mesothelium
+Myofibroblast_Mesothelium|Neural
+Myofibroblast_Mesothelium|Endothelium
+after filtering, 10392 genes are left
+after filtering, 766 interactions are kept
+> simulation start
+> simulation done
+> 868 cells are mapped
+near(0): 8; far(1): 2; mid(2): 5
+> all near celltypes
+['Neural|Muscle', 'Neural|Fibroblasts', 'Neural|Endothelium', 'Muscle|Fibroblasts', 'Muscle|Epithelial', 'Muscle|Endothelium', 'Fibroblasts|Epithelial', 'Fibroblasts|Endothelium']
+> all far celltypes
+['Neural|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Endothelium']
+> target celltypes
+Myofibroblast_Mesothelium, Neural, Endothelium, Muscle
+> 280 spots are selected
+> spot number of target celltypes
+Myofibroblast_Mesothelium: 10,
+Neural: 81,
+Endothelium: 13,
+Muscle: 176,
+> randomly selected cell number of target celltypes
+Myofibroblast_Mesothelium: 39,
+Neural: 227,
+Endothelium: 56,
+Muscle: 546,
+> 868 cells are randomly selected
+> near celltype pairs
+Endothelium|Muscle
+Neural|Endothelium
+Neural|Muscle
+Endothelium|Neural
+Muscle|Endothelium
+Muscle|Neural
+> far celltype pairs
+Myofibroblast_Mesothelium|Endothelium
+Myofibroblast_Mesothelium|Neural
+Endothelium|Myofibroblast_Mesothelium
+Neural|Myofibroblast_Mesothelium
+after filtering, 10392 genes are left
+after filtering, 766 interactions are kept
+> simulation start
+> simulation done
+> 868 cells are mapped

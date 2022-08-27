@@ -1,0 +1,64 @@
+near(0): 11; far(1): 4; mid(2): 6
+> all near celltypes
+['CD8T|Malignant_2', 'CD8T|Ductal', 'CD8T|Malignant_1', 'CD8T|MonoMacro', 'CD8T|Mast', 'Malignant_2|Ductal', 'Malignant_2|Malignant_1', 'Ductal|Malignant_1', 'Ductal|MonoMacro', 'Ductal|Mast', 'MonoMacro|Mast']
+> all far celltypes
+['CD8T|Endothelial', 'Malignant_2|Endothelial', 'Malignant_1|Endothelial', 'Endothelial|Mast']
+> target celltypes
+Malignant_1, Malignant_2, MonoMacro, Endothelial
+> 241 spots are selected
+> spot number of target celltypes
+Malignant_1: 133,
+Malignant_2: 55,
+MonoMacro: 45,
+Endothelial: 8,
+> randomly selected cell number of target celltypes
+Malignant_1: 652,
+Malignant_2: 242,
+MonoMacro: 225,
+Endothelial: 23,
+> 365 cells are randomly selected
+> near celltype pairs
+Malignant_1|Malignant_2
+Malignant_2|Malignant_1
+> far celltype pairs
+Malignant_2|Endothelial
+Malignant_1|Endothelial
+Endothelial|Malignant_1
+Endothelial|Malignant_2
+after filtering, 7908 genes are left
+after filtering, 404 interactions are kept
+> simulation start
+> simulation done
+> 558 cells are mapped
+near(0): 11; far(1): 4; mid(2): 6
+> all near celltypes
+['Malignant_1|Malignant_2', 'Malignant_1|CD8T', 'Malignant_1|Ductal', 'Malignant_2|CD8T', 'Malignant_2|Ductal', 'CD8T|Mast', 'CD8T|MonoMacro', 'CD8T|Ductal', 'Mast|MonoMacro', 'Mast|Ductal', 'MonoMacro|Ductal']
+> all far celltypes
+['Malignant_1|Endothelial', 'Malignant_2|Endothelial', 'Endothelial|CD8T', 'Endothelial|Mast']
+> target celltypes
+Malignant_1, Malignant_2, MonoMacro, Endothelial
+> 241 spots are selected
+> spot number of target celltypes
+Malignant_1: 133,
+Malignant_2: 55,
+MonoMacro: 45,
+Endothelial: 8,
+> randomly selected cell number of target celltypes
+Malignant_1: 652,
+Malignant_2: 242,
+MonoMacro: 225,
+Endothelial: 23,
+> 365 cells are randomly selected
+> near celltype pairs
+Malignant_1|Malignant_2
+Malignant_2|Malignant_1
+> far celltype pairs
+Endothelial|Malignant_1
+Malignant_1|Endothelial
+Malignant_2|Endothelial
+Endothelial|Malignant_2
+after filtering, 7908 genes are left
+after filtering, 404 interactions are kept
+> simulation start
+> simulation done
+> 557 cells are mapped

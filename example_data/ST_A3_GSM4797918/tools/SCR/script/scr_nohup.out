@@ -1,0 +1,105 @@
+nohup: ignoring input
+[1] "############ ------------- scr --------------- ############"
+[1] ">>> load library and data <<< [2022-08-03 01:25:10]"
+[1] ">>> generate LR db <<< [2022-08-03 01:25:39]"
+[1] ">>> start SCR workflow <<< [2022-08-03 01:25:39]"
+edgeR differential gene expression (dge) processing:
+Looking for differentially expressed genes in Endothelial
+Looking for differentially expressed genes in Epithelial
+Looking for differentially expressed genes in Fibroblasts
+Looking for differentially expressed genes in Immune
+Looking for differentially expressed genes in Muscle
+Looking for differentially expressed genes in Myofibroblast_Mesothelium
+Looking for differentially expressed genes in Neural
+Looking for differentially expressed genes in Pericytes
+Autocrine signaling: 
+Checking for cell/cell signaling:
+441 interactions from Endothelial to Endothelial
+348 interactions from Endothelial to Epithelial
+336 interactions from Endothelial to Fibroblasts
+343 interactions from Endothelial to Immune
+330 interactions from Endothelial to Muscle
+373 interactions from Endothelial to Myofibroblast_Mesothelium
+324 interactions from Endothelial to Neural
+368 interactions from Endothelial to Pericytes
+399 interactions from Epithelial to Endothelial
+291 interactions from Epithelial to Epithelial
+274 interactions from Epithelial to Fibroblasts
+302 interactions from Epithelial to Immune
+275 interactions from Epithelial to Muscle
+327 interactions from Epithelial to Myofibroblast_Mesothelium
+275 interactions from Epithelial to Neural
+320 interactions from Epithelial to Pericytes
+421 interactions from Fibroblasts to Endothelial
+306 interactions from Fibroblasts to Epithelial
+295 interactions from Fibroblasts to Fibroblasts
+317 interactions from Fibroblasts to Immune
+293 interactions from Fibroblasts to Muscle
+338 interactions from Fibroblasts to Myofibroblast_Mesothelium
+296 interactions from Fibroblasts to Neural
+341 interactions from Fibroblasts to Pericytes
+278 interactions from Immune to Endothelial
+210 interactions from Immune to Epithelial
+209 interactions from Immune to Fibroblasts
+257 interactions from Immune to Immune
+214 interactions from Immune to Muscle
+249 interactions from Immune to Myofibroblast_Mesothelium
+194 interactions from Immune to Neural
+252 interactions from Immune to Pericytes
+384 interactions from Muscle to Endothelial
+299 interactions from Muscle to Epithelial
+294 interactions from Muscle to Fibroblasts
+265 interactions from Muscle to Immune
+292 interactions from Muscle to Muscle
+327 interactions from Muscle to Myofibroblast_Mesothelium
+303 interactions from Muscle to Neural
+319 interactions from Muscle to Pericytes
+452 interactions from Myofibroblast_Mesothelium to Endothelial
+343 interactions from Myofibroblast_Mesothelium to Epithelial
+343 interactions from Myofibroblast_Mesothelium to Fibroblasts
+316 interactions from Myofibroblast_Mesothelium to Immune
+339 interactions from Myofibroblast_Mesothelium to Muscle
+388 interactions from Myofibroblast_Mesothelium to Myofibroblast_Mesothelium
+332 interactions from Myofibroblast_Mesothelium to Neural
+380 interactions from Myofibroblast_Mesothelium to Pericytes
+413 interactions from Neural to Endothelial
+278 interactions from Neural to Epithelial
+297 interactions from Neural to Fibroblasts
+259 interactions from Neural to Immune
+304 interactions from Neural to Muscle
+332 interactions from Neural to Myofibroblast_Mesothelium
+304 interactions from Neural to Neural
+353 interactions from Neural to Pericytes
+401 interactions from Pericytes to Endothelial
+329 interactions from Pericytes to Epithelial
+319 interactions from Pericytes to Fibroblasts
+306 interactions from Pericytes to Immune
+314 interactions from Pericytes to Muscle
+364 interactions from Pericytes to Myofibroblast_Mesothelium
+327 interactions from Pericytes to Neural
+361 interactions from Pericytes to Pericytes
+[1] ">>> write result <<< [2022-08-03 03:14:36]"
+[1] ">>> all done <<< [2022-08-03 03:14:36]"
+	Command being timed: "Rscript /fs/home/liuzhaoyang/project/cci_evaluation/scripts/run_scr_cutoff_refine.R -c ./data/processed/sc_norm.tsv -m ./data/processed/sc_meta.tsv -o ./tools/SCR/output/ -s 0.6"
+	User time (seconds): 6433.61
+	System time (seconds): 406.11
+	Percent of CPU this job got: 103%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:49:39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8499380
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 137
+	Minor (reclaiming a frame) page faults: 135370947
+	Voluntary context switches: 4151
+	Involuntary context switches: 18538896
+	Swaps: 0
+	File system inputs: 127840
+	File system outputs: 2256
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,2 @@
+screen -x cellcall -p 0 -X stuff "cd /fs/home/liuzhaoyang/project/cci_evaluation/human_intestinal/ST_A3_GSM4797918 && nohup time -v Rscript /fs/home/liuzhaoyang/project/cci_evaluation/scripts/run_cellcall.R -c ./data/processed/sc_counts.tsv -m ./data/processed/sc_meta.tsv -o ./tools/CellCall/output > ./tools/CellCall/script/CellCall_nohup.out 2>&1 &
+"

@@ -1,0 +1,39 @@
+nohup: ignoring input
+[ ][APP][31/07/22-23:16:48][WARNING] User selected database `/fs/home/liuzhaoyang/data/cc_ip/cellphonedb_user_2021-01-12-18_19.db` is available, using it
+[ ][CORE][31/07/22-23:16:48][INFO] Initializing SqlAlchemy CellPhoneDB Core
+[ ][CORE][31/07/22-23:16:48][INFO] Using custom database at /fs/home/liuzhaoyang/data/cc_ip/cellphonedb_user_2021-01-12-18_19.db
+[ ][APP][31/07/22-23:16:48][INFO] Launching Method cpdb_statistical_analysis_local_method_launcher
+[ ][APP][31/07/22-23:16:48][INFO] Launching Method _set_paths
+[ ][APP][31/07/22-23:16:48][INFO] Launching Method _load_meta_counts
+[ ][CORE][31/07/22-23:17:01][INFO] Launching Method cpdb_statistical_analysis_launcher
+[ ][CORE][31/07/22-23:17:01][INFO] Launching Method _counts_validations
+[ ][CORE][31/07/22-23:17:02][INFO] [Cluster Statistical Analysis] Threshold:0.1 Iterations:1000 Debug-seed:-1 Threads:4 Precision:3
+[ ][CORE][31/07/22-23:17:04][INFO] Running Real Analysis
+[ ][CORE][31/07/22-23:17:06][INFO] Running Statistical Analysis
+/fs/home/liuzhaoyang/biosoft/anaconda3/envs/cpdb/lib/python3.7/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.cluster.k_means_ module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.cluster. Anything that cannot be imported from sklearn.cluster is now part of the private API.
+  warnings.warn(message, FutureWarning)
+[ ][CORE][31/07/22-23:27:51][INFO] Building Pvalues result
+[ ][CORE][31/07/22-23:27:59][INFO] Building results
+	Command being timed: "cellphonedb method statistical_analysis ./data/processed/sc_meta.tsv ./data/processed/sc_norm.tsv --counts-data gene_name --output-path ./tools/cpdb/output --threads 4 --database /fs/home/liuzhaoyang/data/cc_ip/cellphonedb_user_2021-01-12-18_19.db"
+	User time (seconds): 2564.11
+	System time (seconds): 17.28
+	Percent of CPU this job got: 379%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:21.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3011296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 522
+	Minor (reclaiming a frame) page faults: 2794920
+	Voluntary context switches: 21014
+	Involuntary context switches: 7567
+	Swaps: 0
+	File system inputs: 194032
+	File system outputs: 1112
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

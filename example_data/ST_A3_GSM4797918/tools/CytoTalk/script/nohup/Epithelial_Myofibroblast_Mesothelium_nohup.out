@@ -1,0 +1,32 @@
+nohup: ignoring input
+[1 / 8] (23:41:19) Preprocessing...
+[2 / 8] (23:41:37) Mutual information matrix...
+[3 / 8] (23:46:40) Indirect edge-filtered network...
+[4 / 8] (23:46:42) Integrate network...
+[5 / 8] (23:47:01) PCSF...
+[6 / 8] (23:47:17) Determine best signaling network...
+[7 / 8] (23:47:18) Generate network output...
+[8 / 8] (23:47:22) Analyze pathways...
+	Command being timed: "Rscript /fs/home/liuzhaoyang/project/cci_evaluation/scripts/run_cytotalk.R -a Epithelial -b Myofibroblast_Mesothelium -i ./tools/CytoTalk/input/ -o ./tools/CytoTalk/output/"
+	User time (seconds): 2337.80
+	System time (seconds): 1425.74
+	Percent of CPU this job got: 849%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:23.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2053804
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30404253
+	Voluntary context switches: 594712
+	Involuntary context switches: 59401182
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 41192
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

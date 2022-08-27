@@ -1,0 +1,425 @@
+id_cp_interaction	interacting_pair	partner_a	partner_b	gene_a	gene_b	secreted	receptor_a	receptor_b	annotation_strategy	is_integrin	rank	Epithelial|Epithelial	Myofibroblast_Mesothelium|Myofibroblast_Mesothelium	Myofibroblast_Mesothelium|Fibroblasts	Myofibroblast_Mesothelium|Pericytes	Myofibroblast_Mesothelium|Endothelial	Myofibroblast_Mesothelium|Immune	Fibroblasts|Myofibroblast_Mesothelium	Fibroblasts|Fibroblasts	Fibroblasts|Pericytes	Fibroblasts|Endothelial	Fibroblasts|Immune	Pericytes|Myofibroblast_Mesothelium	Pericytes|Fibroblasts	Pericytes|Pericytes	Pericytes|Endothelial	Pericytes|Immune	Endothelial|Myofibroblast_Mesothelium	Endothelial|Fibroblasts	Endothelial|Pericytes	Endothelial|Endothelial	Endothelial|Immune	Immune|Myofibroblast_Mesothelium	Immune|Fibroblasts	Immune|Pericytes	Immune|Endothelial	Immune|Immune	Muscle|Muscle	Muscle|Neural	Muscle|Fibroblasts	Muscle|Pericytes	Muscle|Endothelial	Muscle|Immune	Neural|Muscle	Neural|Neural	Neural|Fibroblasts	Neural|Pericytes	Neural|Endothelial	Neural|Immune	Fibroblasts|Muscle	Fibroblasts|Neural	Pericytes|Muscle	Pericytes|Neural	Endothelial|Muscle	Endothelial|Neural	Immune|Muscle	Immune|Neural
+CPI-SS0E41702C1	IGF1_IGF1R	simple:P05019	simple:P08069	IGF1	IGF1R	False	False	False	user_curated	False	0.022					0.334																																									
+CPI-SC02CDF4AC3	TGFB2_P36896_P37173	simple:P61812	complex:P36896_P37173	TGFB2		False	False	False	user_curated	False	0.022																																					0.14									
+CPI-SS011982BBF	WNT5B_FZD4	simple:Q9H1J7	simple:Q9ULV1	WNT5B	FZD4	False	False	False	user_curated	False	0.022					0.216																																									
+CPI-SC0361D9D79	TGFB2_P36897_P37173	simple:P61812	complex:P36897_P37173	TGFB2		False	False	False	user_curated	False	0.022																																					0.149									
+CPI-SC02F58CC8C	WNT2B_O60353_O75197	simple:Q93097	complex:O60353_O75197	WNT2B		False	False	False	user_curated	False	0.022					0.155																																									
+CPI-SS0EDD4928A	NGF_NGFR	simple:P01138	simple:P08138	NGF	NGFR	False	False	False	user_curated	False	0.022																																										0.24				
+CPI-SS06DA9B4FE	PDGFC_PDGFRA	simple:Q9NRA1	simple:P16234	PDGFC	PDGFRA	False	False	False	user_curated	False	0.022																													0.342																	
+CPI-SS012A0AEC9	GDF15_TGFBR2	simple:Q99988	simple:P37173	GDF15	TGFBR2	False	False	False	user_curated	False	0.022	0.444																																													
+CPI-SS0B0CF0EDF	TNFSF15_TNFRSF25	simple:O95150	simple:Q93038	TNFSF15	TNFRSF25	False	False	False	user_curated	False	0.022	0.116																																													
+CPI-SS041A22E65	THRB_F2RL1	simple:P00734	simple:P55085	THRB	F2RL1	False	False	False	user_curated	False	0.022	0.458																																													
+CPI-SC01AC9F398	AREG_P00533_P04626	simple:P15514	complex:P00533_P04626	AREG		False	False	False	user_curated	False	0.022	0.407																																													
+CPI-SS041A22E65	F2_F2RL1	simple:P00734	simple:P55085	F2	F2RL1	False	False	False	user_curated	False	0.022	0.458																																													
+CPI-SS0CBFF3136	THRB_PARD3	simple:P00734	simple:Q8TEW0	THRB	PARD3	False	False	False	user_curated	False	0.022																														0.155																
+CPI-SS0CBFF3136	F2_PARD3	simple:P00734	simple:Q8TEW0	F2	PARD3	False	False	False	user_curated	False	0.022																														0.155																
+CPI-SC07644E062	SEMA3F_O60462_P51805	simple:Q13275	complex:O60462_P51805	SEMA3F		False	False	False	user_curated	False	0.022																																												0.144		
+CPI-SS086CB298F	APLN_APLNR	simple:Q9ULZ1	simple:P35414	APLN	APLNR	False	False	False	user_curated	False	0.022																				0.647																										
+CPI-SC0CDC67E88	SEMA3B_O60462_P51805	simple:Q13214	complex:O60462_P51805	SEMA3B		False	False	False	user_curated	False	0.022																																		0.436												
+CPI-SS0DE9B07A8	ANGPT1_TEK	simple:Q15389	simple:Q02763	ANGPT1	TEK	False	False	False	user_curated	False	0.022															0.351																															
+CPI-SS0BAB460FF	ANGPT2_TEK	simple:O15123	simple:Q02763	ANGPT2	TEK	False	False	False	user_curated	False	0.022															0.518																															
+CPI-SS0D8632EB4	EDN1_EDNRA	simple:P05305	simple:P25101	EDN1	EDNRA	False	False	False	user_curated	False	0.022																			0.398																											
+CPI-SS0E23CEB91	LGALS9_HAVCR2	simple:O00182	simple:Q8TDQ0	LGALS9	HAVCR2	False	False	False	user_curated	False	0.022																					0.26																									
+CPI-SS0A6674B21	PRSS3_F2RL1	simple:P35030	simple:P55085	PRSS3	F2RL1	False	False	False	user_curated	False	0.022	0.626																																													
+CPI-SC0CC3F53A3	SEMA3B_O14786_P51805	simple:Q13214	complex:O14786_P51805	SEMA3B		False	False	False	user_curated	False	0.022																																		0.438												
+CPI-SS09C4988F8	PROS1_TYRO3	simple:P07225	simple:Q06418	PROS1	TYRO3	False	False	False	user_curated	False	0.022																																												0.146		
+CPI-SS06C0074BD	CCL21_CCR7	simple:O00585	simple:P32248	CCL21	CCR7	False	False	False	user_curated	False	0.022																					0.278																									
+CPI-SS07CCAD9BF	GRN_SORT1	simple:P28799	simple:Q99523	GRN	SORT1	False	False	False	user_curated	False	0.022	0.464																																													
+CPI-SS08BF22309	GUCA2A_GUCY2C	simple:Q02747	simple:P25092	GUCA2A	GUCY2C	False	False	False	user_curated	False	0.022	0.396																																													
+CPI-SS0D53C1FD0	WNT5B_FZD6	simple:Q9H1J7	simple:O60353	WNT5B	FZD6	False	False	False	user_curated	False	0.022					0.178																																									
+CPI-SS004C23DCE	EREG_EGFR	simple:O14944	simple:P00533	EREG	EGFR	False	False	False	user_curated	False	0.022	0.224																																													
+CPI-SC0D3E2A22C	WNT2B_Q9ULV1_O75197	simple:Q93097	complex:Q9ULV1_O75197	WNT2B		False	False	False	user_curated	False	0.022					0.155																																									
+CPI-SC0783F1AA2	SEMA3B_O14786_O75051	simple:Q13214	complex:O14786_O75051	SEMA3B		False	False	False	user_curated	False	0.022																																					0.495									
+CPI-SS0BCF193A1	WNT5B_FZD2	simple:Q9H1J7	simple:Q14332	WNT5B	FZD2	False	False	False	user_curated	False	0.022		0.177																																												
+CPI-SC089CBCA1A	IGF1_P23229_P16144	simple:P05019	complex:P23229_P16144	IGF1		False	False	False	user_curated	False	0.022					0.248																																									
+CPI-SS052119104	AREG_EGFR	simple:P15514	simple:P00533	AREG	EGFR	False	False	False	user_curated	False	0.022	0.407																																													
+CPI-SC0635885D0	EREG_P00533_P04626	simple:O14944	complex:P00533_P04626	EREG		False	False	False	user_curated	False	0.022	0.224																																													
+CPI-SS0666DE74B	NPY_NPY1R	simple:P01303	simple:P25929	NPY	NPY1R	False	False	False	user_curated	False	0.022				0.336																																										
+CPI-SS0911EECCC	CXCL8_ACKR1	simple:P10145	simple:Q16570	CXCL8	ACKR1	False	False	False	user_curated	False	0.022																									0.768																					
+CPI-SS01FAD473B	NRTN_GFRA2	simple:Q99748	simple:O00451	NRTN	GFRA2	False	False	False	user_curated	False	0.043																													0.224	0.16																
+CPI-SC0109F58EB	SEMA3C_O60462_P51805	simple:Q99985	complex:O60462_P51805	SEMA3C		False	False	False	user_curated	False	0.043																												0.152						0.209												
+CPI-SC010BDC6FF	SEMA3B_O60462_O75051	simple:Q13214	complex:O60462_O75051	SEMA3B		False	False	False	user_curated	False	0.043																				0.208																	0.495									
+CPI-SS0C8E4D226	ADM_CALCRL	simple:P35318	simple:Q16602	ADM	CALCRL	False	False	False	user_curated	False	0.043					0.509															0.55																										
+CPI-SS0E7B91F39	SEMA3C_PLXND1	simple:Q99985	simple:Q9Y4D7	SEMA3C	PLXND1	False	False	False	user_curated	False	0.043																															0.757						0.815									
+CPI-SS0E928B8C8	FGF7_FGFR2	simple:P21781	simple:P21802	FGF7	FGFR2	False	False	False	user_curated	False	0.043																											0.393														0.256					
+CPI-SC00A136C08	SEMA3C_O14786_O75051	simple:Q99985	complex:O14786_O75051	SEMA3C		False	False	False	user_curated	False	0.043																															0.21						0.268									
+CPI-SC095832FFD	SEMA3F_O60462_O75051	simple:Q13275	complex:O60462_O75051	SEMA3F		False	False	False	user_curated	False	0.043					0.236															0.203																										
+CPI-SC0B03C32CA	SEMA3C_O60462_O75051	simple:Q99985	complex:O60462_O75051	SEMA3C		False	False	False	user_curated	False	0.043																															0.21						0.268									
+CPI-SC05FD083DD	OSM_P42702_P40189	simple:P13725	complex:P42702_P40189	OSM		False	False	False	user_curated	False	0.043																						0.183			0.409																					
+CPI-SS0611C625F	WNT5B_FZD7	simple:Q9H1J7	simple:O75084	WNT5B	FZD7	False	False	False	user_curated	False	0.043		0.174	0.189																																											
+CPI-SS09B92F236	EDN1_EDNRB	simple:P05305	simple:P24530	EDN1	EDNRB	False	False	False	user_curated	False	0.043	0.604																																											0.435		
+CPI-SS058209EC7	F2_F2R	simple:P00734	simple:P25116	F2	F2R	False	False	False	user_curated	False	0.043																														0.195	0.24															
+CPI-SS058209EC7	THRB_F2R	simple:P00734	simple:P25116	THRB	F2R	False	False	False	user_curated	False	0.043																														0.195	0.24															
+CPI-SS0B70EB09E	PDGFA_PDGFRA	simple:P04085	simple:P16234	PDGFA	PDGFRA	False	False	False	user_curated	False	0.043												0.531	0.411																																	
+CPI-SS0958724F2	ANGPTL4_CDH5	simple:Q9BY76	simple:P33151	ANGPTL4	CDH5	False	False	False	user_curated	False	0.043										0.879					0.954																															
+CPI-SC0159FB8D9	SEMA3C_O14786_P51805	simple:Q99985	complex:O14786_P51805	SEMA3C		False	False	False	user_curated	False	0.043																												0.154						0.211												
+CPI-SS06F5E4F78	GDNF_GFRA1	simple:P39905	simple:P56159	GDNF	GFRA1	False	False	False	user_curated	False	0.043																											0.216	0.353																		
+CPI-SS0B2FB23BC	CXCL2_ACKR1	simple:P19875	simple:Q16570	CXCL2	ACKR1	False	False	False	user_curated	False	0.043																				0.413					0.57																					
+CPI-SC08974B687	SEMA3A_O14786_P51805	simple:Q14563	complex:O14786_P51805	SEMA3A		False	False	False	user_curated	False	0.043																												0.186												0.207						
+CPI-SC025D74F89	SEMA3A_O14786_O75051	simple:Q14563	complex:O14786_O75051	SEMA3A		False	False	False	user_curated	False	0.065					0.388					0.263																					0.242															
+CPI-SS0C85BC9AF	PROS1_AXL	simple:P07225	simple:P30530	PROS1	AXL	False	False	False	user_curated	False	0.065																			0.197		0.202																						0.158			
+CPI-SS0AB1F04A0	CSF1_CSF1R	simple:P09603	simple:P07333	CSF1	CSF1R	False	False	False	user_curated	False	0.065						0.354										0.308					0.278																									
+CPI-SS0B3C76C9D	PDGFD_PDGFRB	simple:Q9GZP0	simple:P09619	PDGFD	PDGFRB	False	False	False	user_curated	False	0.065		0.302	0.365	0.764																																										
+CPI-SC02C3EC870	ANGPT2_P08648_P05556	simple:O15123	complex:P08648_P05556	ANGPT2		False	False	False	user_curated	False	0.065												0.391			0.628																										0.409					
+CPI-SS06D2BC14F	ARTN_GFRA1	simple:Q5T4W7	simple:P56159	ARTN	GFRA1	False	False	False	user_curated	False	0.065												0.208																													0.2	0.336				
+CPI-SS0B543764D	WNT5B_FZD1	simple:Q9H1J7	simple:Q9UP38	WNT5B	FZD1	False	False	False	user_curated	False	0.065		0.302	0.221	0.188																																										
+CPI-SS0BDA0E5E0	GAS6_TYRO3	simple:Q14393	simple:Q06418	GAS6	TYRO3	False	False	False	user_curated	False	0.065	0.162																																									0.273		0.228		
+CPI-SS052BBD9F9	CXCL1_ACKR1	simple:P09341	simple:Q16570	CXCL1	ACKR1	False	False	False	user_curated	False	0.065					0.254															0.194					0.218																					
+CPI-SS0E64BD55B	PDGFA_PDGFRB	simple:P04085	simple:P09619	PDGFA	PDGFRB	False	False	False	user_curated	False	0.065												0.295	0.358	0.756																																
+CPI-SS001865B32	TNFSF10_TNFRSF10B	simple:P50591	simple:O14763	TNFSF10	TNFRSF10B	False	False	False	user_curated	False	0.065	0.321																			0.269	0.305																									
+CPI-SS04E690D72	PTN_PTPRZ1	simple:P21246	simple:P23471	PTN	PTPRZ1	False	False	False	user_curated	False	0.087																												0.718						0.609						0.849		0.73				
+CPI-SS0F7FF099C	GAS6_MERTK	simple:Q14393	simple:Q12866	GAS6	MERTK	False	False	False	user_curated	False	0.087															0.274	0.274				0.228	0.228																									
+CPI-SS0703338F5	LGALS9_CD44	simple:O00182	simple:P16070	LGALS9	CD44	False	False	False	user_curated	False	0.087																	0.248				0.565																						0.311	0.248		
+CPI-SS05162C56B	NTF3_NTRK3	simple:P20783	simple:Q16288	NTF3	NTRK3	False	False	False	user_curated	False	0.087		0.183		0.327								0.273		0.417																																
+CPI-SS02EF3E1BA	TNFSF12_TNFRSF12A	simple:O43508	simple:Q9NP84	TNFSF12	TNFRSF12A	False	False	False	user_curated	False	0.087	0.334																																								0.259		0.27	0.251		
+CPI-SS0569F0E0D	CXCL3_ACKR1	simple:P19876	simple:Q16570	CXCL3	ACKR1	False	False	False	user_curated	False	0.087					0.21										0.221					0.262					0.403																					
+CPI-SS027E12A36	MDK_PTPRZ1	simple:P21741	simple:P23471	MDK	PTPRZ1	False	False	False	user_curated	False	0.109																												1.139						1.347						1.344		1.235		0.865		
+CPI-SS0FEEB187C	PDGFB_PDGFRA	simple:P01127	simple:P16234	PDGFB	PDGFRA	False	False	False	user_curated	False	0.109												0.462	0.342				0.498	0.377																	0.322											
+CPI-SC0485E5143	ANGPTL2_P08648_P05556	simple:Q9UKU9	complex:P08648_P05556	ANGPTL2		False	False	False	user_curated	False	0.109							0.188			0.425																	0.236				0.455								0.206							
+CPI-SS0DBFB8BEA	CCL2_ACKR1	simple:P13500	simple:Q16570	CCL2	ACKR1	False	False	False	user_curated	False	0.109					0.475					0.505					0.56					0.57																	0.457									
+CPI-SS098B7BE0A	SMS_SSR4	simple:P61278	simple:P31391	SMS	SSR4	False	False	False	user_curated	False	0.13	0.406																0.421		0.43									0.412						0.416										0.446		
+CPI-SC0BE78B635	ANGPTL4_P08648_P05556	simple:Q9BY76	complex:P08648_P05556	ANGPTL4		False	False	False	user_curated	False	0.13							0.198			0.435		0.273			0.51																								0.217		0.292					
+CPI-SS06F63AD8F	ANGPTL4_SDC3	simple:Q9BY76	simple:O75056	ANGPTL4	SDC3	False	False	False	user_curated	False	0.13										0.184					0.259																								0.217	0.26	0.292	0.336				
+CPI-SS0AE964947	GAS6_AXL	simple:Q14393	simple:P30530	GAS6	AXL	False	False	False	user_curated	False	0.13														0.325		0.33			0.279		0.284																				0.286		0.24			
+CPI-SS098B7BE0A	SST_SSR4	simple:P61278	simple:P31391	SST	SSR4	False	False	False	user_curated	False	0.13	0.406																0.421		0.43									0.412						0.416										0.446		
+CPI-SS0B134D80B	NAMPT_INSR	simple:P43490	simple:P06213	NAMPT	INSR	False	False	False	user_curated	False	0.152					0.399					0.448										0.578					0.671														0.425				0.555		0.647	
+CPI-SC02D41C57E	POSTN_P06756_P18084	simple:Q15063	complex:P06756_P18084	POSTN		False	False	False	user_curated	False	0.152		0.717		0.739	0.703							0.314		0.336																0.815	0.779															
+CPI-SS0ADC22434	ANGPTL4_SDC2	simple:Q9BY76	simple:P34741	ANGPTL4	SDC2	False	False	False	user_curated	False	0.174							0.4	0.251	0.458			0.475	0.326	0.533																											0.246	0.281				
+CPI-SS0BA377E84	ANGPTL4_CDH11	simple:Q9BY76	simple:P55287	ANGPTL4	CDH11	False	False	False	user_curated	False	0.174							0.341	0.365	0.32			0.416	0.441	0.395																									0.308		0.383					
+CPI-SS05A3441B9	SST_SSR3	simple:P61278	simple:P32745	SST	SSR3	False	False	False	user_curated	False	0.174														0.262			0.259	0.268	0.307	0.258										0.273						0.276								0.269		
+CPI-SS05A3441B9	SMS_SSR3	simple:P61278	simple:P32745	SMS	SSR3	False	False	False	user_curated	False	0.174														0.262			0.259	0.268	0.307	0.258										0.273						0.276								0.269		
+CPI-SS05A26A1DE	PDGFB_PDGFRB	simple:P01127	simple:P09619	PDGFB	PDGFRB	False	False	False	user_curated	False	0.174												0.225	0.288	0.687			0.261	0.324	0.723																0.269	0.667										
+CPI-SS0A28DCA72	CXCL12_CXCR4	simple:P48061	simple:P61073	CXCL12	CXCR4	False	False	False	user_curated	False	0.196					0.462	0.754				0.662	0.953					0.677					0.638					0.464						0.681						0.481								
+CPI-SC0548D4C1F	MDK_P23229_P05556	simple:P21741	complex:P23229_P05556	MDK		False	False	False	user_curated	False	0.217					1.526					1.507					1.398					1.028								0.983			1.302			1.19			1.51			1.187		1.078				
+CPI-SS01B806614	PTN_SDC3	simple:P21246	simple:O75056	PTN	SDC3	False	False	False	user_curated	False	0.239					0.764					0.682					0.563												0.583	0.627			0.55			0.519					0.715	0.758	0.596	0.639				
+CPI-SS0F592009B	FGF7_FGFR1	simple:P21781	simple:P11362	FGF7	FGFR1	False	False	False	user_curated	False	0.239												0.261	0.317	0.247	0.355												0.441	0.388	0.454	0.384	0.492										0.304	0.251				
+CPI-SS0976BA7F0	CXCL12_ACKR3	simple:P48061	simple:P25106	CXCL12	ACKR3	False	False	False	user_curated	False	0.239		0.88		0.677			1.08		0.877	0.71		0.804		0.6			0.764		0.561			0.59								0.605																
+CPI-SS0A512249D	SMS_SSR1	simple:P61278	simple:P30872	SMS	SSR1	False	False	False	user_curated	False	0.261																	0.177	0.175	0.176	0.149	0.16								0.141	0.142				0.136	0.145	0.146							0.163	0.167		
+CPI-SS0A512249D	SST_SSTR1	simple:P61278	simple:P30872	SST	SSTR1	False	False	False	user_curated	False	0.261																	0.177	0.175	0.176	0.149	0.16								0.141	0.142				0.136	0.145	0.146							0.163	0.167		
+CPI-SS0A512249D	SMS_SSTR1	simple:P61278	simple:P30872	SMS	SSTR1	False	False	False	user_curated	False	0.261																	0.177	0.175	0.176	0.149	0.16								0.141	0.142				0.136	0.145	0.146							0.163	0.167		
+CPI-SS0A512249D	SST_SSR1	simple:P61278	simple:P30872	SST	SSR1	False	False	False	user_curated	False	0.261																	0.177	0.175	0.176	0.149	0.16								0.141	0.142				0.136	0.145	0.146							0.163	0.167		
+CPI-SC025C09D3C	NAMPT_P08648_P05556	simple:P43490	complex:P08648_P05556	NAMPT		False	False	False	user_curated	False	0.283					0.587		0.399			0.636					0.521		0.529			0.766		0.621			0.858						0.461						0.509		0.417				0.548		0.64	
+CPI-SS08A159F6C	PTN_SDC2	simple:P21246	simple:P34741	PTN	SDC2	False	False	False	user_curated	False	0.326		0.98	0.831	1.038			0.898	0.749	0.956			0.779	0.63	0.837															0.617	0.824						0.716			0.669	0.704		0.585				
+CPI-SS0FE594C97	SMS_SSTR2	simple:P61278	simple:P30874	SMS	SSTR2	False	False	False	user_curated	False	0.391		0.308	0.279	0.325			0.303		0.319			0.316	0.286	0.332			0.36	0.331	0.376									0.288	0.297	0.343				0.292	0.3	0.346								0.322		
+CPI-SS0FE594C97	SMS_SSR2	simple:P61278	simple:P30874	SMS	SSR2	False	False	False	user_curated	False	0.391		0.308	0.279	0.325			0.303		0.319			0.316	0.286	0.332			0.36	0.331	0.376									0.288	0.297	0.343				0.292	0.3	0.346								0.322		
+CPI-SS0FE594C97	SST_SSR2	simple:P61278	simple:P30874	SST	SSR2	False	False	False	user_curated	False	0.391		0.308	0.279	0.325			0.303		0.319			0.316	0.286	0.332			0.36	0.331	0.376									0.288	0.297	0.343				0.292	0.3	0.346								0.322		
+CPI-SS0FE594C97	SST_SSTR2	simple:P61278	simple:P30874	SST	SSTR2	False	False	False	user_curated	False	0.391		0.308	0.279	0.325			0.303		0.319			0.316	0.286	0.332			0.36	0.331	0.376									0.288	0.297	0.343				0.292	0.3	0.346								0.322		
+CPI-SS0C0849037	MDK_SDC2	simple:P21741	simple:P34741	MDK	SDC2	False	False	False	user_curated	False	0.413		1.412	1.263	1.469			1.393	1.243	1.45			1.284	1.135	1.342															1.039	1.246			1.166	1.201	1.246	1.453			1.164	1.198	1.055	1.089				
+CPI-SS006C6537E	MDK_LRP1	simple:P21741	simple:Q07954	MDK	LRP1	False	False	False	user_curated	False	0.435		1.384	1.36	1.25			1.364	1.341	1.231			1.256	1.232	1.123													1.086		1.136	1.027			1.294	1.184	1.344	1.234			1.291	1.181	1.182	1.073				
+CPI-SS0A08FD80E	PTN_NCL	simple:P21246	simple:P19338	PTN	NCL	False	False	False	user_curated	False	0.5		1.074	1.008	1.215	1.036	0.977	0.992	0.926	1.134	0.955	0.895	0.873	0.807	1.014	0.836													0.864	0.794	1.002	0.823					0.894			0.922	0.995	0.803	0.876				
+CPI-SS024B70001	MDK_NCL	simple:P21741	simple:P19338	MDK	NCL	False	False	False	user_curated	False	0.63		1.506	1.44	1.647	1.468	1.408	1.487	1.42	1.628	1.449	1.389	1.378	1.312	1.519	1.34	1.281												1.285	1.216	1.423	1.244		1.42	1.492	1.423	1.631	1.452	1.392	1.417	1.49	1.308	1.381				
+CPI-SC0F4AF00A6	BMP7_P36894_Q13705	simple:P18075	complex:P36894_Q13705	BMP7		False	False	False	user_curated	False	1.63																																														
+CPI-SC0165E8AB7	BMP8B_Q04771_P27037	simple:P34820	complex:Q04771_P27037	BMP8B		False	False	False	user_curated	False	1.63																																														
+CPI-SC08530770D	BMP6_Q04771_P27037	simple:P22004	complex:Q04771_P27037	BMP6		False	False	False	user_curated	False	1.63																																														
+CPI-SC0725152DF	BMP5_Q04771_P27037	simple:P22003	complex:Q04771_P27037	BMP5		False	False	False	user_curated	False	1.63																																														
+CPI-SC0A4D03098	BMP7_Q04771_P27037	simple:P18075	complex:Q04771_P27037	BMP7		False	False	False	user_curated	False	1.63																																														
+CPI-SS0BC9F7E9E	FGF17_FGFR3	simple:O60258	simple:P22607	FGF17	FGFR3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0E134097C	FGF18_FGFR3	simple:O76093	simple:P22607	FGF18	FGFR3	False	False	False	user_curated	False	1.63																																														
+CPI-SC0BD2322CB	GDF6_P36894_Q13873	simple:Q6KF10	complex:P36894_Q13873	GDF6		False	False	False	user_curated	False	1.63																																														
+CPI-SC06411C510	BMP8B_P36894_Q13873	simple:P34820	complex:P36894_Q13873	BMP8B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0BC00868E	BMP6_P36894_Q13873	simple:P22004	complex:P36894_Q13873	BMP6		False	False	False	user_curated	False	1.63																																														
+CPI-SC03B649AD6	BMP5_P36894_Q13873	simple:P22003	complex:P36894_Q13873	BMP5		False	False	False	user_curated	False	1.63																																														
+CPI-SS0F8710941	FGF23_FGFR4	simple:Q9GZV9	simple:P22455	FGF23	FGFR4	False	False	False	user_curated	False	1.63																																														
+CPI-SS09568551C	FGF9_FGFR4	simple:P31371	simple:P22455	FGF9	FGFR4	False	False	False	user_curated	False	1.63																																														
+CPI-SC0E6B2B64E	BMP5_Q04771_Q13705	simple:P22003	complex:Q04771_Q13705	BMP5		False	False	False	user_curated	False	1.63																																														
+CPI-SS008FB916C	FGF2_FGFR4	simple:P09038	simple:P22455	FGF2	FGFR4	False	False	False	user_curated	False	1.63																																														
+CPI-SS015819E65	FGF1_FGFR3	simple:P05230	simple:P22607	FGF1	FGFR3	False	False	False	user_curated	False	1.63																																														
+CPI-SC09085997B	BMP6_Q04771_Q13705	simple:P22004	complex:Q04771_Q13705	BMP6		False	False	False	user_curated	False	1.63																																														
+CPI-SC033623B7C	BMP8B_Q04771_Q13705	simple:P34820	complex:Q04771_Q13705	BMP8B		False	False	False	user_curated	False	1.63																																														
+CPI-SS0D9366D11	FGF1_FGFR4	simple:P05230	simple:P22455	FGF1	FGFR4	False	False	False	user_curated	False	1.63																																														
+CPI-SC0AB3D5AC9	BMP7_Q04771_Q13873	simple:P18075	complex:Q04771_Q13873	BMP7		False	False	False	user_curated	False	1.63																																														
+CPI-SS0D4CA5D92	FGF18_FGFR4	simple:O76093	simple:P22455	FGF18	FGFR4	False	False	False	user_curated	False	1.63																																														
+CPI-SC0488382C7	BMP5_Q04771_Q13873	simple:P22003	complex:Q04771_Q13873	BMP5		False	False	False	user_curated	False	1.63																																														
+CPI-SC0D18384F3	BMP6_Q04771_Q13873	simple:P22004	complex:Q04771_Q13873	BMP6		False	False	False	user_curated	False	1.63																																														
+CPI-SS0AC594A8E	FGF17_FGFR4	simple:O60258	simple:P22455	FGF17	FGFR4	False	False	False	user_curated	False	1.63																																														
+CPI-SS07B324162	FGF9_FGFR2	simple:P31371	simple:P21802	FGF9	FGFR2	False	False	False	user_curated	False	1.63																																														
+CPI-SC0CC5A410F	BMP8B_Q04771_Q13873	simple:P34820	complex:Q04771_Q13873	BMP8B		False	False	False	user_curated	False	1.63																																														
+CPI-SC083EB500B	BMP7_Q04771_Q13705	simple:P18075	complex:Q04771_Q13705	BMP7		False	False	False	user_curated	False	1.63																																														
+CPI-SC0C72C9A68	BMP7_P36894_Q13873	simple:P18075	complex:P36894_Q13873	BMP7		False	False	False	user_curated	False	1.63																																														
+CPI-SC06DC452F4	BMP2_P36894_Q13873	simple:P12643	complex:P36894_Q13873	BMP2		False	False	False	user_curated	False	1.63																																														
+CPI-SC06E958100	BMP4_P36894_Q13873	simple:P12644	complex:P36894_Q13873	BMP4		False	False	False	user_curated	False	1.63																																														
+CPI-SC054081D62	BMP6_P36894_Q13705	simple:P22004	complex:P36894_Q13705	BMP6		False	False	False	user_curated	False	1.63																																														
+CPI-SC023F34EB8	BMP4_P36894_Q13705	simple:P12644	complex:P36894_Q13705	BMP4		False	False	False	user_curated	False	1.63																																														
+CPI-SC0C966149F	BMP2_P36894_Q13705	simple:P12643	complex:P36894_Q13705	BMP2		False	False	False	user_curated	False	1.63																																														
+CPI-SC020222AEA	GDF6_P36894_P27037	simple:Q6KF10	complex:P36894_P27037	GDF6		False	False	False	user_curated	False	1.63																																														
+CPI-SC00E673985	BMP8B_P36894_P27037	simple:P34820	complex:P36894_P27037	BMP8B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0973C5E87	BMP6_P36894_P27037	simple:P22004	complex:P36894_P27037	BMP6		False	False	False	user_curated	False	1.63																																														
+CPI-SC09274D302	BMP5_P36894_P27037	simple:P22003	complex:P36894_P27037	BMP5		False	False	False	user_curated	False	1.63																																														
+CPI-SC0A4764C3E	BMP7_P36894_P27037	simple:P18075	complex:P36894_P27037	BMP7		False	False	False	user_curated	False	1.63																																														
+CPI-SS0F361D98E	WNT11_FZD9	simple:O96014	simple:O00144	WNT11	FZD9	False	False	False	user_curated	False	1.63																																														
+CPI-SC04E32E133	BMP4_P36894_P27037	simple:P12644	complex:P36894_P27037	BMP4		False	False	False	user_curated	False	1.63																																														
+CPI-SC00A3D7B85	BMP2_P36894_P27037	simple:P12643	complex:P36894_P27037	BMP2		False	False	False	user_curated	False	1.63																																														
+CPI-SC0AC81463A	ANGPTL1_P56199_P05556	simple:O95841	complex:P56199_P05556	ANGPTL1		False	False	False	user_curated	False	1.63																																														
+CPI-SS0D636A374	FGF2_FGFR3	simple:P09038	simple:P22607	FGF2	FGFR3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0247B3C14	TNFSF13B_TNFRSF13C	simple:Q9Y275	simple:Q96RJ3	TNFSF13B	TNFRSF13C	False	False	False	user_curated	False	1.63																																														
+CPI-SC00536C03B	BMP8B_P36894_Q13705	simple:P34820	complex:P36894_Q13705	BMP8B		False	False	False	user_curated	False	1.63																																														
+CPI-SS0859C173B	TNFSF14_LTBR	simple:O43557	simple:P36941	TNFSF14	LTBR	False	False	False	user_curated	False	1.63																																														
+CPI-SS0763C3EE5	SHH_PTCH2	simple:Q15465	simple:Q9Y6C5	SHH	PTCH2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0A38C4550	IHH_PTCH2	simple:Q14623	simple:Q9Y6C5	IHH	PTCH2	False	False	False	user_curated	False	1.63																																														
+CPI-SS06AAF408A	DHH_PTCH2	simple:O43323	simple:Q9Y6C5	DHH	PTCH2	False	False	False	user_curated	False	1.63																																														
+CPI-SS06EB91EE2	SHH_PTCH1	simple:Q15465	simple:Q13635	SHH	PTCH1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0988182B5	IHH_PTCH1	simple:Q14623	simple:Q13635	IHH	PTCH1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0F5860436	DHH_PTCH1	simple:O43323	simple:Q13635	DHH	PTCH1	False	False	False	user_curated	False	1.63																																														
+CPI-SS06B22F8E9	FGF23_FGFR3	simple:Q9GZV9	simple:P22607	FGF23	FGFR3	False	False	False	user_curated	False	1.63																																														
+CPI-SS05D62446A	FGF9_FGFR3	simple:P31371	simple:P22607	FGF9	FGFR3	False	False	False	user_curated	False	1.63																																														
+CPI-SC03B881D69	GDF6_P36894_Q13705	simple:Q6KF10	complex:P36894_Q13705	GDF6		False	False	False	user_curated	False	1.63																																														
+CPI-SC041F09999	BMP5_P36894_Q13705	simple:P22003	complex:P36894_Q13705	BMP5		False	False	False	user_curated	False	1.63																																														
+CPI-SC059B9E436	GDF9_P36896_Q13873	simple:O60383	complex:P36896_Q13873	GDF9		False	False	False	user_curated	False	1.63																																														
+CPI-SS0C6C28D2F	WNT5A_FZD9	simple:P41221	simple:O00144	WNT5A	FZD9	False	False	False	user_curated	False	1.63																																														
+CPI-SS010BB499F	CCL2_ACKR2	simple:P13500	simple:O00590	CCL2	ACKR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS070BA2CC2	WNT11_FZD6	simple:O96014	simple:O60353	WNT11	FZD6	False	False	False	user_curated	False	1.63																																														
+CPI-SC0DDE73534	IL7_P16871_P31785	simple:P13232	complex:P16871_P31785	IL7		False	False	False	user_curated	False	1.63																																														
+CPI-SS08719F19E	APELA_APLNR	simple:P0DMC3	simple:P35414	APELA	APLNR	False	False	False	user_curated	False	1.63																																														
+CPI-SS08376F0E6	CSF3_CSF3R	simple:P09919	simple:Q99062	CSF3	CSF3R	False	False	False	user_curated	False	1.63																																														
+CPI-SS015162AFC	IL34_CSF1R	simple:Q6ZMJ4	simple:P07333	IL34	CSF1R	False	False	False	user_curated	False	1.63																																														
+CPI-SS075B1AA3A	PSAP_GPR37L1	simple:P07602	simple:O60883	PSAP	GPR37L1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0D8DE8E59	PSAP_GPR37	simple:P07602	simple:O15354	PSAP	GPR37	False	False	False	user_curated	False	1.63																																														
+CPI-SS0C4D532A8	CALCA_CALCRL	simple:P06881	simple:Q16602	CALCA	CALCRL	False	False	False	user_curated	False	1.63																																														
+CPI-SC0A174E3F3	LIF_P42702_P40189	simple:P15018	complex:P42702_P40189	LIF		False	False	False	user_curated	False	1.63																																														
+CPI-SS03D5CBF55	EDN3_EDNRA	simple:P14138	simple:P25101	EDN3	EDNRA	False	False	False	user_curated	False	1.63																																														
+CPI-SC0691A5039	IL6_P08887_P40189	simple:P05231	complex:P08887_P40189	IL6		False	False	False	user_curated	False	1.63																																														
+CPI-SC0F3EF4354	AMH_Q16671_Q04771	simple:P03971	complex:Q16671_Q04771	AMH		False	False	False	user_curated	False	1.63																																														
+CPI-SC0D0875A7D	AMH_Q16671_P36894	simple:P03971	complex:Q16671_P36894	AMH		False	False	False	user_curated	False	1.63																																														
+CPI-SS0275F086A	IL1B_IL1R2	simple:P01584	simple:P27930	IL1B	IL1R2	False	False	False	user_curated	False	1.63																																														
+CPI-SS06DFB4087	IL1A_IL1R2	simple:P01583	simple:P27930	IL1A	IL1R2	False	False	False	user_curated	False	1.63																																														
+CPI-SC0CE052837	IL1B_P14778_Q9NPH3	simple:P01584	complex:P14778_Q9NPH3	IL1B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0A571192D	IL1A_P14778_Q9NPH3	simple:P01583	complex:P14778_Q9NPH3	IL1A		False	False	False	user_curated	False	1.63																																														
+CPI-SS0696491A3	EDN3_EDNRB	simple:P14138	simple:P24530	EDN3	EDNRB	False	False	False	user_curated	False	1.63																																														
+CPI-SC085ED634B	CTF1_P42702_P40189	simple:Q16619	complex:P42702_P40189	CTF1		False	False	False	user_curated	False	1.63																																														
+CPI-SC097AC037F	OSM_Q99650_P40189	simple:P13725	complex:Q99650_P40189	OSM		False	False	False	user_curated	False	1.63																																														
+CPI-SS0109FE6AE	HGF_MET	simple:P14210	simple:P08581	HGF	MET	False	False	False	user_curated	False	1.63																																														
+CPI-SS0CDEE4A57	RARRES2_CMKLR1	simple:Q99969	simple:Q99788	RARRES2	CMKLR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS05A8552D7	EDA_EDAR	simple:Q92838	simple:Q9UNE0	EDA	EDAR	False	False	False	user_curated	False	1.63																																														
+CPI-SS0B281803E	ENHO_GPR19	simple:Q6UWT2	simple:Q15760	ENHO	GPR19	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BE275E5E	IL16_CD4	simple:Q14005	simple:P01730	IL16	CD4	False	False	False	user_curated	False	1.63																																														
+CPI-SS01B7CB0E7	GUCA2B_GUCY2C	simple:Q16661	simple:P25092	GUCA2B	GUCY2C	False	False	False	user_curated	False	1.63																																														
+CPI-SS0079E2156	CCL20_CCR6	simple:P78556	simple:P51684	CCL20	CCR6	False	False	False	user_curated	False	1.63																																														
+CPI-SS0388C9C86	CX3CL1_CX3CR1	simple:P78423	simple:P49238	CX3CL1	CX3CR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0431D2256	TNFSF9_TNFRSF9	simple:P41273	simple:Q07011	TNFSF9	TNFRSF9	False	False	False	user_curated	False	1.63																																														
+CPI-SS01F980BBB	ARTN_GFRA3	simple:Q5T4W7	simple:O60609	ARTN	GFRA3	False	False	False	user_curated	False	1.63																																														
+CPI-SS04EE13FF7	NPPC_NPR2	simple:P23582	simple:P20594	NPPC	NPR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS04456F441	TNFSF4_TNFRSF4	simple:P23510	simple:P43489	TNFSF4	TNFRSF4	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BE567EFB	GAL_GALR1	simple:P22466	simple:P47211	GAL	GALR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS04BCE85CA	GAL_GALR2	simple:P22466	simple:O43603	GAL	GALR2	False	False	False	user_curated	False	1.63																																														
+CPI-SC08C22BB9B	IL11_Q14626_P40189	simple:P20809	complex:Q14626_P40189	IL11		False	False	False	user_curated	False	1.63																																														
+CPI-SS02A8BD654	TAC1_TACR1	simple:P20366	simple:P25103	TAC1	TACR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS061ED1543	TAC1_TACR2	simple:P20366	simple:P21452	TAC1	TACR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0133239EA	ADCYAP1_ADCYAP1R1	simple:P18509	simple:P41586	ADCYAP1	ADCYAP1R1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0785718FF	PYY_GPR83	simple:P10082	simple:Q9NYM4	PYY	GPR83	False	False	False	user_curated	False	1.63																																														
+CPI-SS07E1666A5	WNT5B_FZD9	simple:Q9H1J7	simple:O00144	WNT5B	FZD9	False	False	False	user_curated	False	1.63																																														
+CPI-SS08171C005	NPY_GPR83	simple:P01303	simple:Q9NYM4	NPY	GPR83	False	False	False	user_curated	False	1.63																																														
+CPI-SS05B60E59C	VIP_VIPR2	simple:P01282	simple:P41587	VIP	VIPR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0FA5D6D20	WNT5A_FZD4	simple:P41221	simple:Q9ULV1	WNT5A	FZD4	False	False	False	user_curated	False	1.63																																														
+CPI-SS0874B02CC	WNT11_FZD4	simple:O96014	simple:Q9ULV1	WNT11	FZD4	False	False	False	user_curated	False	1.63																																														
+CPI-SS039AA1507	WNT5B_FZD3	simple:Q9H1J7	simple:Q9NPG1	WNT5B	FZD3	False	False	False	user_curated	False	1.63																																														
+CPI-SS002673EFE	WNT5A_FZD3	simple:P41221	simple:Q9NPG1	WNT5A	FZD3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0004E25A6	WNT11_FZD3	simple:O96014	simple:Q9NPG1	WNT11	FZD3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0257E914A	WNT5B_FZD8	simple:Q9H1J7	simple:Q9H461	WNT5B	FZD8	False	False	False	user_curated	False	1.63																																														
+CPI-SS0F6456A20	WNT5A_FZD8	simple:P41221	simple:Q9H461	WNT5A	FZD8	False	False	False	user_curated	False	1.63																																														
+CPI-SS0398DF005	WNT11_FZD10	simple:O96014	simple:Q9ULW2	WNT11	FZD10	False	False	False	user_curated	False	1.63																																														
+CPI-SS007B937D1	WNT11_FZD8	simple:O96014	simple:Q9H461	WNT11	FZD8	False	False	False	user_curated	False	1.63																																														
+CPI-SS0D3F936F9	WNT11_FZD2	simple:O96014	simple:Q14332	WNT11	FZD2	False	False	False	user_curated	False	1.63																																														
+CPI-SS042E21C6C	WNT5B_FZD5	simple:Q9H1J7	simple:Q13467	WNT5B	FZD5	False	False	False	user_curated	False	1.63																																														
+CPI-SS0E32BEF02	WNT5A_FZD5	simple:P41221	simple:Q13467	WNT5A	FZD5	False	False	False	user_curated	False	1.63																																														
+CPI-SS0246C5473	WNT11_FZD5	simple:O96014	simple:Q13467	WNT11	FZD5	False	False	False	user_curated	False	1.63																																														
+CPI-SS0CCA2F0BE	WNT5A_FZD7	simple:P41221	simple:O75084	WNT5A	FZD7	False	False	False	user_curated	False	1.63																																														
+CPI-SS02C1CD5FD	WNT11_FZD7	simple:O96014	simple:O75084	WNT11	FZD7	False	False	False	user_curated	False	1.63																																														
+CPI-SS06C087B42	WNT5A_FZD6	simple:P41221	simple:O60353	WNT5A	FZD6	False	False	False	user_curated	False	1.63																																														
+CPI-SS01C2BA5C8	WNT5A_FZD2	simple:P41221	simple:Q14332	WNT5A	FZD2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BC3B9EF8	WNT5A_FZD10	simple:P41221	simple:Q9ULW2	WNT5A	FZD10	False	False	False	user_curated	False	1.63																																														
+CPI-SS03D0D3808	WNT5B_FZD10	simple:Q9H1J7	simple:Q9ULW2	WNT5B	FZD10	False	False	False	user_curated	False	1.63																																														
+CPI-SS03D254C51	WNT11_FZD1	simple:O96014	simple:Q9UP38	WNT11	FZD1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0C8A09915	VIP_VIPR1	simple:P01282	simple:P32241	VIP	VIPR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0D6DD505A	GCG_GIPR	simple:P01275	simple:P48546	GCG	GIPR	False	False	False	user_curated	False	1.63																																														
+CPI-SS04D518182	GCG_GLP2R	simple:P01275	simple:O95838	GCG	GLP2R	False	False	False	user_curated	False	1.63																																														
+CPI-SS0483CE4ED	PTHLH_PTH1R	simple:P12272	simple:Q03431	PTHLH	PTH1R	False	False	False	user_curated	False	1.63																																														
+CPI-SS00689751B	PRL_PRLR	simple:P01236	simple:P16471	PRL	PRLR	False	False	False	user_curated	False	1.63																																														
+CPI-SS00BD8FF72	POMC_MC1R	simple:P01189	simple:Q01726	POMC	MC1R	False	False	False	user_curated	False	1.63																																														
+CPI-SS00399ED03	AVP_AVPR1A	simple:P01185	simple:P37288	AVP	AVPR1A	False	False	False	user_curated	False	1.63																																														
+CPI-SS0FCF733EA	AVP_AVPR2	simple:P01185	simple:P30518	AVP	AVPR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS04B547174	OXT_OXTR	simple:P01178	simple:P30559	OXT	OXTR	False	False	False	user_curated	False	1.63																																														
+CPI-SS04B547174	NEU1_OXTR	simple:P01178	simple:P30559	NEU1	OXTR	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BA601DC4	BDNF_NTRK2	simple:P23560	simple:Q16620	BDNF	NTRK2	False	False	False	user_curated	False	1.63																																														
+CPI-SS093E05DD4	NTF3_NTRK2	simple:P20783	simple:Q16620	NTF3	NTRK2	False	False	False	user_curated	False	1.63																																														
+CPI-SS05A94DE17	FGF2_FGFR2	simple:P09038	simple:P21802	FGF2	FGFR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS075D9B9AD	KNG1_BDKRB1	simple:P01042	simple:P46663	KNG1	BDKRB1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0F21F1570	KNG1_BDKRB2	simple:P01042	simple:P30411	KNG1	BDKRB2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0709500FF	WNT5A_MCAM	simple:P41221	simple:P43121	WNT5A	MCAM	False	False	False	user_curated	False	1.63																																														
+CPI-SS0B2D5BA95	WNT5A_FZD1	simple:P41221	simple:Q9UP38	WNT5A	FZD1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0A9F17199	PYY_NPY1R	simple:P10082	simple:P25929	PYY	NPY1R	False	False	False	user_curated	False	1.63																																														
+CPI-SS04A97448D	FGF1_FGFR2	simple:P05230	simple:P21802	FGF1	FGFR2	False	False	False	user_curated	False	1.63																																														
+CPI-SC0385E2BD3	SEMA3B_O14786_Q9HCM2	simple:Q13214	complex:O14786_Q9HCM2	SEMA3B		False	False	False	user_curated	False	1.63																																														
+CPI-SS0330D939A	FGF17_FGFR2	simple:O60258	simple:P21802	FGF17	FGFR2	False	False	False	user_curated	False	1.63																																														
+CPI-SC00F7281E2	HBEGF_P04626_Q15303	simple:Q99075	complex:P04626_Q15303	HBEGF		False	False	False	user_curated	False	1.63																																														
+CPI-SC05F42AD59	NRG3_P04626_Q15303	simple:P56975	complex:P04626_Q15303	NRG3		False	False	False	user_curated	False	1.63																																														
+CPI-SC09FC1B7CA	BTC_P04626_Q15303	simple:P35070	complex:P04626_Q15303	BTC		False	False	False	user_curated	False	1.63																																														
+CPI-SC085FA039E	EREG_P04626_Q15303	simple:O14944	complex:P04626_Q15303	EREG		False	False	False	user_curated	False	1.63																																														
+CPI-SC07D690F42	NRG2_P04626_Q15303	simple:O14511	complex:P04626_Q15303	NRG2		False	False	False	user_curated	False	1.63																																														
+CPI-SC02133EB36	NRG1_P04626_Q15303	simple:Q02297	complex:P04626_Q15303	NRG1		False	False	False	user_curated	False	1.63																																														
+CPI-SC0C5E947B0	NRG2_P04626_P21860	simple:O14511	complex:P04626_P21860	NRG2		False	False	False	user_curated	False	1.63																																														
+CPI-SC0C6400443	NRG1_P04626_P21860	simple:Q02297	complex:P04626_P21860	NRG1		False	False	False	user_curated	False	1.63																																														
+CPI-SS072DE2CA2	ANGPTL2_TLR4	simple:Q9UKU9	simple:O00206	ANGPTL2	TLR4	False	False	False	user_curated	False	1.63																																														
+CPI-SS013923296	MDK_SDC4	simple:P21741	simple:P31431	MDK	SDC4	False	False	False	user_curated	False	1.63																																														
+CPI-SS0229615A6	PTN_SDC4	simple:P21246	simple:P31431	PTN	SDC4	False	False	False	user_curated	False	1.63																																														
+CPI-SS004A2C2A0	ANGPTL4_SDC4	simple:Q9BY76	simple:P31431	ANGPTL4	SDC4	False	False	False	user_curated	False	1.63																																														
+CPI-SS09E894567	MDK_SDC1	simple:P21741	simple:P18827	MDK	SDC1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0AAADE913	PTN_SDC1	simple:P21246	simple:P18827	PTN	SDC1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0728EF204	ANGPTL4_SDC1	simple:Q9BY76	simple:P18827	ANGPTL4	SDC1	False	False	False	user_curated	False	1.63																																														
+CPI-SC0617AED61	C3_P11215_P05107	simple:P01024	complex:P11215_P05107	C3		False	False	False	user_curated	False	1.63																																														
+CPI-SC028967BC9	SPP1_Q13797_P05556	simple:P10451	complex:Q13797_P05556	SPP1		False	False	False	user_curated	False	1.63																																														
+CPI-SS02B906C26	NRG1_ERBB3	simple:Q02297	simple:P21860	NRG1	ERBB3	False	False	False	user_curated	False	1.63																																														
+CPI-SS053613259	NRG2_ERBB3	simple:O14511	simple:P21860	NRG2	ERBB3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BD5C2A23	NRG1_ERBB4	simple:Q02297	simple:Q15303	NRG1	ERBB4	False	False	False	user_curated	False	1.63																																														
+CPI-SS0E063192D	NRG2_ERBB4	simple:O14511	simple:Q15303	NRG2	ERBB4	False	False	False	user_curated	False	1.63																																														
+CPI-SC0E8D0FEA9	WNT9A_O60353_O75197	simple:O14904	complex:O60353_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC04A17E55A	WNT6_O00144_O75197	simple:Q9Y6F9	complex:O00144_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC0A973833C	WNT2B_O00144_O75197	simple:Q93097	complex:O00144_O75197	WNT2B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0B53118EB	WNT4_O00144_O75197	simple:P56705	complex:O00144_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SC0C06CDBBD	WNT9A_O00144_O75197	simple:O14904	complex:O00144_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SS0AB20B9AD	CORT_SSR3	simple:O00230	simple:P32745	CORT	SSR3	False	False	False	user_curated	False	1.63																																														
+CPI-SS008509DBD	CORT_SSR4	simple:O00230	simple:P31391	CORT	SSR4	False	False	False	user_curated	False	1.63																																														
+CPI-SS0C272BD3D	CORT_SSTR2	simple:O00230	simple:P30874	CORT	SSTR2	False	False	False	user_curated	False	1.63																																														
+CPI-SC0B1A05D68	SPP1_P53708_P05556	simple:P10451	complex:P53708_P05556	SPP1		False	False	False	user_curated	False	1.63																																														
+CPI-SS0C272BD3D	CORT_SSR2	simple:O00230	simple:P30874	CORT	SSR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS06CE0CF64	CORT_SSR1	simple:O00230	simple:P30872	CORT	SSR1	False	False	False	user_curated	False	1.63																																														
+CPI-SC078AA674E	IGF2_P23229_P16144	simple:P01344	complex:P23229_P16144	IGF2		False	False	False	user_curated	False	1.63																																														
+CPI-SS042A6F835	IGF2_IGF2R	simple:P01344	simple:P11717	IGF2	IGF2R	False	False	False	user_curated	False	1.63																																														
+CPI-SS0579FA162	IGF2_IGF1R	simple:P01344	simple:P08069	IGF2	IGF1R	False	False	False	user_curated	False	1.63																																														
+CPI-SS060B846D1	HBEGF_ERBB4	simple:Q99075	simple:Q15303	HBEGF	ERBB4	False	False	False	user_curated	False	1.63																																														
+CPI-SS0D5E30C6C	NRG3_ERBB4	simple:P56975	simple:Q15303	NRG3	ERBB4	False	False	False	user_curated	False	1.63																																														
+CPI-SS0F0D7F25C	BTC_ERBB4	simple:P35070	simple:Q15303	BTC	ERBB4	False	False	False	user_curated	False	1.63																																														
+CPI-SS0FC42EC80	EREG_ERBB4	simple:O14944	simple:Q15303	EREG	ERBB4	False	False	False	user_curated	False	1.63																																														
+CPI-SS06CE0CF64	CORT_SSTR1	simple:O00230	simple:P30872	CORT	SSTR1	False	False	False	user_curated	False	1.63																																														
+CPI-SC0926171F3	MDK_P13612_P05556	simple:P21741	complex:P13612_P05556	MDK		False	False	False	user_curated	False	1.63																																														
+CPI-SC039D2D108	SPP1_P13612_P05556	simple:P10451	complex:P13612_P05556	SPP1		False	False	False	user_curated	False	1.63																																														
+CPI-SC0411F313E	SPP1_P06756_P18564	simple:P10451	complex:P06756_P18564	SPP1		False	False	False	user_curated	False	1.63																																														
+CPI-SC0CF266D30	TGFB3_Q8NER5_P37173	simple:P10600	complex:Q8NER5_P37173	TGFB3		False	False	False	user_curated	False	1.63																																														
+CPI-SC0D5D236A9	TGFB3_P36897_P37173	simple:P10600	complex:P36897_P37173	TGFB3		False	False	False	user_curated	False	1.63																																														
+CPI-SC0AC52AFEF	TGFB3_P36896_P37173	simple:P10600	complex:P36896_P37173	TGFB3		False	False	False	user_curated	False	1.63																																														
+CPI-SS09239FB26	CCL19_CCR7	simple:Q99731	simple:P32248	CCL19	CCR7	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BCCA6596	CCL28_CCR10	simple:Q9NRJ3	simple:P46092	CCL28	CCR10	False	False	False	user_curated	False	1.63																																														
+CPI-SS01A6823FA	PF4_CXCR3	simple:P02776	simple:P49682	PF4	CXCR3	False	False	False	user_curated	False	1.63																																														
+CPI-SS080683E15	CXCL10_CXCR3	simple:P02778	simple:P49682	CXCL10	CXCR3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0CCD89E02	CCL25_ACKR4	simple:O15444	simple:Q9NPB9	CCL25	ACKR4	False	False	False	user_curated	False	1.63																																														
+CPI-SC04B098E02	TGFB2_Q8NER5_P37173	simple:P61812	complex:Q8NER5_P37173	TGFB2		False	False	False	user_curated	False	1.63																																														
+CPI-SS00AEC3818	CCL19_ACKR4	simple:Q99731	simple:Q9NPB9	CCL19	ACKR4	False	False	False	user_curated	False	1.63																																														
+CPI-SS04C8F4B87	CCL8_ACKR4	simple:P80075	simple:Q9NPB9	CCL8	ACKR4	False	False	False	user_curated	False	1.63																																														
+CPI-SS02A339E2D	CXCL6_ACKR1	simple:P80162	simple:Q16570	CXCL6	ACKR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0ABF41CAA	CXCL5_ACKR1	simple:P42830	simple:Q16570	CXCL5	ACKR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0A145A3A4	CXCL10_ACKR1	simple:P02778	simple:Q16570	CXCL10	ACKR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS008700E67	CCL8_ACKR1	simple:P80075	simple:Q16570	CCL8	ACKR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS00466EB50	CCL11_ACKR1	simple:P51671	simple:Q16570	CCL11	ACKR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0F6F1C29E	CCL8_ACKR2	simple:P80075	simple:O00590	CCL8	ACKR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0D4403860	CCL11_ACKR2	simple:P51671	simple:O00590	CCL11	ACKR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0ECD9BB5E	CCL21_ACKR4	simple:O00585	simple:Q9NPB9	CCL21	ACKR4	False	False	False	user_curated	False	1.63																																														
+CPI-SC08E88D327	WNT4_O60353_O75197	simple:P56705	complex:O60353_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SS026335F55	THRB_F2RL2	simple:P00734	simple:O00254	THRB	F2RL2	False	False	False	user_curated	False	1.63																																														
+CPI-SS09404C94F	PLG_F2RL2	simple:P00747	simple:O00254	PLG	F2RL2	False	False	False	user_curated	False	1.63																																														
+CPI-SC09D8B9DA2	SPP1_P06756_P18084	simple:P10451	complex:P06756_P18084	SPP1		False	False	False	user_curated	False	1.63																																														
+CPI-SC02759A348	SPP1_P06756_P05556	simple:P10451	complex:P06756_P05556	SPP1		False	False	False	user_curated	False	1.63																																														
+CPI-SC0A4615CB0	SPP1_P08648_P05556	simple:P10451	complex:P08648_P05556	SPP1		False	False	False	user_curated	False	1.63																																														
+CPI-SS02AB0C3E0	SPP1_CD44	simple:P10451	simple:P16070	SPP1	CD44	False	False	False	user_curated	False	1.63																																														
+CPI-SS0F815C36F	PRSS3_F2RL3	simple:P35030	simple:Q96RI0	PRSS3	F2RL3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0415C4BFF	GZMA_F2RL3	simple:P12544	simple:Q96RI0	GZMA	F2RL3	False	False	False	user_curated	False	1.63																																														
+CPI-SS04AEFAE55	PLG_F2RL3	simple:P00747	simple:Q96RI0	PLG	F2RL3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BDC2B411	F2_F2RL3	simple:P00734	simple:Q96RI0	F2	F2RL3	False	False	False	user_curated	False	1.63																																														
+CPI-SS026335F55	F2_F2RL2	simple:P00734	simple:O00254	F2	F2RL2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BDC2B411	THRB_F2RL3	simple:P00734	simple:Q96RI0	THRB	F2RL3	False	False	False	user_curated	False	1.63																																														
+CPI-SS018FFAD1E	GZMA_PARD3	simple:P12544	simple:Q8TEW0	GZMA	PARD3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0E6CA0B42	PLG_PARD3	simple:P00747	simple:Q8TEW0	PLG	PARD3	False	False	False	user_curated	False	1.63																																														
+CPI-SS0024CA9FD	GZMA_F2RL1	simple:P12544	simple:P55085	GZMA	F2RL1	False	False	False	user_curated	False	1.63																																														
+CPI-SS01FD0889C	PLG_F2RL1	simple:P00747	simple:P55085	PLG	F2RL1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0391314C7	PRSS3_F2R	simple:P35030	simple:P25116	PRSS3	F2R	False	False	False	user_curated	False	1.63																																														
+CPI-SS07EA09568	GZMA_F2R	simple:P12544	simple:P25116	GZMA	F2R	False	False	False	user_curated	False	1.63																																														
+CPI-SS09367CF8E	PRSS3_F2RL2	simple:P35030	simple:O00254	PRSS3	F2RL2	False	False	False	user_curated	False	1.63																																														
+CPI-SS017DDA046	GZMA_F2RL2	simple:P12544	simple:O00254	GZMA	F2RL2	False	False	False	user_curated	False	1.63																																														
+CPI-SS0086084D6	PRSS3_PARD3	simple:P35030	simple:Q8TEW0	PRSS3	PARD3	False	False	False	user_curated	False	1.63																																														
+CPI-SC0E2A7F68D	WNT6_O60353_O75197	simple:Q9Y6F9	complex:O60353_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC07D95D8F1	WNT9A_O75084_O75197	simple:O14904	complex:O75084_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC0CFEC9AB1	WNT4_O75084_O75197	simple:P56705	complex:O75084_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SC092404D13	SEMA3D_O60462_O75051	simple:O95025	complex:O60462_O75051	SEMA3D		False	False	False	user_curated	False	1.63																																														
+CPI-SC011FFAFCC	SEMA3A_O14786_Q9UIW2	simple:Q14563	complex:O14786_Q9UIW2	SEMA3A		False	False	False	user_curated	False	1.63																																														
+CPI-SC02B31C3F1	SEMA3B_O14786_Q9UIW2	simple:Q13214	complex:O14786_Q9UIW2	SEMA3B		False	False	False	user_curated	False	1.63																																														
+CPI-SC02EEDD7D1	SEMA3D_O14786_Q9UIW2	simple:O95025	complex:O14786_Q9UIW2	SEMA3D		False	False	False	user_curated	False	1.63																																														
+CPI-SC07D002857	SEMA3C_O14786_Q9UIW2	simple:Q99985	complex:O14786_Q9UIW2	SEMA3C		False	False	False	user_curated	False	1.63																																														
+CPI-SC065B116BF	SEMA3A_O14786_Q9HCM2	simple:Q14563	complex:O14786_Q9HCM2	SEMA3A		False	False	False	user_curated	False	1.63																																														
+CPI-SC0D1B17933	SEMA3D_O14786_Q9HCM2	simple:O95025	complex:O14786_Q9HCM2	SEMA3D		False	False	False	user_curated	False	1.63																																														
+CPI-SC0F3A046EC	SEMA3C_O14786_Q9HCM2	simple:Q99985	complex:O14786_Q9HCM2	SEMA3C		False	False	False	user_curated	False	1.63																																														
+CPI-SC0F9FC677F	SEMA3G_O60462_O75051	simple:Q9NS98	complex:O60462_O75051	SEMA3G		False	False	False	user_curated	False	1.63																																														
+CPI-SC03AC818E8	SEMA3D_O14786_P51805	simple:O95025	complex:O14786_P51805	SEMA3D		False	False	False	user_curated	False	1.63																																														
+CPI-SS0F3A089DE	SEMA3E_PLXND1	simple:O15041	simple:Q9Y4D7	SEMA3E	PLXND1	False	False	False	user_curated	False	1.63																																														
+CPI-SC0DDE5B056	INHBB_Q8NER5_Q13705	simple:P09529	complex:Q8NER5_Q13705	INHBB		False	False	False	user_curated	False	1.63																																														
+CPI-SC0C23F0F29	INHBB_Q8NER5_P27037	simple:P09529	complex:Q8NER5_P27037	INHBB		False	False	False	user_curated	False	1.63																																														
+CPI-SC0778F55B3	GDF11_P36897_Q13705	simple:O95390	complex:P36897_Q13705	GDF11		False	False	False	user_curated	False	1.63																																														
+CPI-SC0466A8119	MSTN_P36897_Q13705	simple:O14793	complex:P36897_Q13705	MSTN		False	False	False	user_curated	False	1.63																																														
+CPI-SC08FD210B3	GDF11_P36897_P27037	simple:O95390	complex:P36897_P27037	GDF11		False	False	False	user_curated	False	1.63																																														
+CPI-SC0714B4284	MSTN_P36897_P27037	simple:O14793	complex:P36897_P27037	MSTN		False	False	False	user_curated	False	1.63																																														
+CPI-SC02AF48EC8	GDF11_P36896_Q13705	simple:O95390	complex:P36896_Q13705	GDF11		False	False	False	user_curated	False	1.63																																														
+CPI-SC06F4B01FB	SEMA3D_O14786_O75051	simple:O95025	complex:O14786_O75051	SEMA3D		False	False	False	user_curated	False	1.63																																														
+CPI-SC04BDF1619	INHBB_P36896_Q13705	simple:P09529	complex:P36896_Q13705	INHBB		False	False	False	user_curated	False	1.63																																														
+CPI-SC0EDA68DEF	SEMA3D_O60462_P51805	simple:O95025	complex:O60462_P51805	SEMA3D		False	False	False	user_curated	False	1.63																																														
+CPI-SC0269BB87D	SEMA3C_O60462_Q9HCM2	simple:Q99985	complex:O60462_Q9HCM2	SEMA3C		False	False	False	user_curated	False	1.63																																														
+CPI-SS0AECC113F	FGF10_FGFR2	simple:O15520	simple:P21802	FGF10	FGFR2	False	False	False	user_curated	False	1.63																																														
+CPI-SS09015A868	FGF23_FGFR1	simple:Q9GZV9	simple:P11362	FGF23	FGFR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0BE6B1E97	FGF9_FGFR1	simple:P31371	simple:P11362	FGF9	FGFR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS01F67987A	FGF2_FGFR1	simple:P09038	simple:P11362	FGF2	FGFR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0755A26DD	FGF1_FGFR1	simple:P05230	simple:P11362	FGF1	FGFR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0F2C6A4D4	FGF18_FGFR1	simple:O76093	simple:P11362	FGF18	FGFR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS0467AFD8A	FGF17_FGFR1	simple:O60258	simple:P11362	FGF17	FGFR1	False	False	False	user_curated	False	1.63																																														
+CPI-SS03189F5F6	FGF10_FGFR1	simple:O15520	simple:P11362	FGF10	FGFR1	False	False	False	user_curated	False	1.63																																														
+CPI-SC08C686F26	SEMA3G_O60462_P51805	simple:Q9NS98	complex:O60462_P51805	SEMA3G		False	False	False	user_curated	False	1.63																																														
+CPI-SC09C5EF478	C3_P20702_P05107	simple:P01024	complex:P20702_P05107	C3		False	False	False	user_curated	False	1.63																																														
+CPI-SC09A1EC2FA	SEMA3F_O60462_Q9UIW2	simple:Q13275	complex:O60462_Q9UIW2	SEMA3F		False	False	False	user_curated	False	1.63																																														
+CPI-SC071A674D3	SEMA3B_O60462_Q9UIW2	simple:Q13214	complex:O60462_Q9UIW2	SEMA3B		False	False	False	user_curated	False	1.63																																														
+CPI-SC06D29FEEF	SEMA3D_O60462_Q9UIW2	simple:O95025	complex:O60462_Q9UIW2	SEMA3D		False	False	False	user_curated	False	1.63																																														
+CPI-SC076BD8E87	SEMA3C_O60462_Q9UIW2	simple:Q99985	complex:O60462_Q9UIW2	SEMA3C		False	False	False	user_curated	False	1.63																																														
+CPI-SC095A80741	SEMA3G_O60462_Q9HCM2	simple:Q9NS98	complex:O60462_Q9HCM2	SEMA3G		False	False	False	user_curated	False	1.63																																														
+CPI-SC0793C1FB2	SEMA3F_O60462_Q9HCM2	simple:Q13275	complex:O60462_Q9HCM2	SEMA3F		False	False	False	user_curated	False	1.63																																														
+CPI-SC0DD6C4EB8	SEMA3B_O60462_Q9HCM2	simple:Q13214	complex:O60462_Q9HCM2	SEMA3B		False	False	False	user_curated	False	1.63																																														
+CPI-SC03F6A3F5A	SEMA3D_O60462_Q9HCM2	simple:O95025	complex:O60462_Q9HCM2	SEMA3D		False	False	False	user_curated	False	1.63																																														
+CPI-SC0FEC3BA72	SEMA3G_O60462_Q9UIW2	simple:Q9NS98	complex:O60462_Q9UIW2	SEMA3G		False	False	False	user_curated	False	1.63																																														
+CPI-SS0F6A7A4DF	FGF18_FGFR2	simple:O76093	simple:P21802	FGF18	FGFR2	False	False	False	user_curated	False	1.63																																														
+CPI-SC0CA6F0499	INHBA_P36896_Q13705	simple:P08476	complex:P36896_Q13705	INHBA		False	False	False	user_curated	False	1.63																																														
+CPI-SC05D4ADB3D	GDF10_P36896_P27037	simple:P55107	complex:P36896_P27037	GDF10		False	False	False	user_curated	False	1.63																																														
+CPI-SC095353D95	WNT6_Q9NPG1_O75197	simple:Q9Y6F9	complex:Q9NPG1_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC0F9D57E34	WNT2B_Q9NPG1_O75197	simple:Q93097	complex:Q9NPG1_O75197	WNT2B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0A0D98C8D	WNT4_Q9NPG1_O75197	simple:P56705	complex:Q9NPG1_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SC0456F779D	WNT9A_Q9NPG1_O75197	simple:O14904	complex:Q9NPG1_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC0D9F9EAC4	WNT6_Q9H461_O75197	simple:Q9Y6F9	complex:Q9H461_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC0E2E03198	WNT2B_Q9H461_O75197	simple:Q93097	complex:Q9H461_O75197	WNT2B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0281AB653	WNT4_Q9H461_O75197	simple:P56705	complex:Q9H461_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SC06E9CD488	WNT9A_Q9H461_O75197	simple:O14904	complex:Q9H461_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC0761E791E	WNT9A_Q9ULV1_O75197	simple:O14904	complex:Q9ULV1_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC0E813ADB8	WNT6_Q14332_O75197	simple:Q9Y6F9	complex:Q14332_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC0F5F1246D	WNT4_Q14332_O75197	simple:P56705	complex:Q14332_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SC0916BE5A5	WNT9A_Q14332_O75197	simple:O14904	complex:Q14332_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC04224B098	WNT6_Q13467_O75197	simple:Q9Y6F9	complex:Q13467_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC034ACA96A	WNT2B_Q13467_O75197	simple:Q93097	complex:Q13467_O75197	WNT2B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0BBCC77A4	WNT4_Q13467_O75197	simple:P56705	complex:Q13467_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SC0238858D3	WNT9A_Q13467_O75197	simple:O14904	complex:Q13467_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC07A2652A3	WNT6_O75084_O75197	simple:Q9Y6F9	complex:O75084_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC01ECB5380	WNT2B_O75084_O75197	simple:Q93097	complex:O75084_O75197	WNT2B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0C6349617	WNT2B_Q14332_O75197	simple:Q93097	complex:Q14332_O75197	WNT2B		False	False	False	user_curated	False	1.63																																														
+CPI-SC01653E39F	MSTN_P36896_Q13705	simple:O14793	complex:P36896_Q13705	MSTN		False	False	False	user_curated	False	1.63																																														
+CPI-SC09E254C91	WNT4_Q9ULV1_O75197	simple:P56705	complex:Q9ULV1_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SC02C203FD7	WNT9A_Q9ULW2_O75197	simple:O14904	complex:Q9ULW2_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC0801782AE	INHBB_P36896_P27037	simple:P09529	complex:P36896_P27037	INHBB		False	False	False	user_curated	False	1.63																																														
+CPI-SC0FD3AE9DD	INHBA_P36896_P27037	simple:P08476	complex:P36896_P27037	INHBA		False	False	False	user_curated	False	1.63																																														
+CPI-SC0A1E7CCAA	MSTN_P36896_P27037	simple:O14793	complex:P36896_P27037	MSTN		False	False	False	user_curated	False	1.63																																														
+CPI-SC0F8F6FB88	TGFA_P00533_P04626	simple:P01135	complex:P00533_P04626	TGFA		False	False	False	user_curated	False	1.63																																														
+CPI-SC071625F4B	EGF_P00533_P04626	simple:P01133	complex:P00533_P04626	EGF		False	False	False	user_curated	False	1.63																																														
+CPI-SC017C5955C	HBEGF_P00533_P04626	simple:Q99075	complex:P00533_P04626	HBEGF		False	False	False	user_curated	False	1.63																																														
+CPI-SC0012A9818	BTC_P00533_P04626	simple:P35070	complex:P00533_P04626	BTC		False	False	False	user_curated	False	1.63																																														
+CPI-SS07E5C3060	TGFA_EGFR	simple:P01135	simple:P00533	TGFA	EGFR	False	False	False	user_curated	False	1.63																																														
+CPI-SC07AB5E202	WNT6_Q9ULV1_O75197	simple:Q9Y6F9	complex:Q9ULV1_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SS09947DDD9	EGF_EGFR	simple:P01133	simple:P00533	EGF	EGFR	False	False	False	user_curated	False	1.63																																														
+CPI-SS0CC966B71	BTC_EGFR	simple:P35070	simple:P00533	BTC	EGFR	False	False	False	user_curated	False	1.63																																														
+CPI-SC0F5ED1270	WNT6_Q9UP38_O75197	simple:Q9Y6F9	complex:Q9UP38_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC02D618124	WNT2B_Q9UP38_O75197	simple:Q93097	complex:Q9UP38_O75197	WNT2B		False	False	False	user_curated	False	1.63																																														
+CPI-SC0968CCEC2	WNT4_Q9UP38_O75197	simple:P56705	complex:Q9UP38_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SC03A513E23	WNT9A_Q9UP38_O75197	simple:O14904	complex:Q9UP38_O75197	WNT9A		False	False	False	user_curated	False	1.63																																														
+CPI-SC0CA5B26F5	WNT6_Q9ULW2_O75197	simple:Q9Y6F9	complex:Q9ULW2_O75197	WNT6		False	False	False	user_curated	False	1.63																																														
+CPI-SC065ECDD42	WNT2B_Q9ULW2_O75197	simple:Q93097	complex:Q9ULW2_O75197	WNT2B		False	False	False	user_curated	False	1.63																																														
+CPI-SC000D56BAC	WNT4_Q9ULW2_O75197	simple:P56705	complex:Q9ULW2_O75197	WNT4		False	False	False	user_curated	False	1.63																																														
+CPI-SS09B2ACA25	HBEGF_EGFR	simple:Q99075	simple:P00533	HBEGF	EGFR	False	False	False	user_curated	False	1.63																																														
+CPI-SS030D85815	IL17B_IL17RB	simple:Q9UHF5	simple:Q9NRM6	IL17B	IL17RB	False	False	False	user_curated	False	1.63																																														

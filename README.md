@@ -40,9 +40,13 @@ First, generate known ligand-receptor pairs from CellChatDB, then select short-r
 ## Repository
 
 The running scripts of CCI tools and analysis codes used in this study are available in this GitHub repository.
-- `prepare_dir_script.py` this Python script is used to prepare the working directories and generate script submitting commands for every CCI tool.
 - `/scripts` folder contains all the scripts for running each CCI tool.
-- `extract_tool_results.py` this Python script is used to extract all the predicted interactions from each tool's outputs.
+- `./scripts/prepare_dir_script.py` this Python script is used to prepare the working directories and generate script submitting commands for every CCI tool.
+- `./scripts/extract_tool_results.py` this Python script is used to extract all the predicted interactions from each tool's outputs.
+
+- For running the example data of sample A3 in the human intestine dataset, please refer to the `./extract_result.ipynb`. It contains all the steps in our workflow.
+- All the tool results and the DES in all the real and simulated datasets are stored under `./evaluation_result`.
+
 
 <br/>
 
@@ -293,7 +297,76 @@ for project_base_dir in project_base_dirs:
 ```
 
 ## Data simulation
-Still updaing. Coming soon! (^ ^)
+For simulated datasets, you can follow the similar workflow above to prepare inputs, run CCI tools, and compute DES. So, here we mainly talk about how to simualte datasets used in our study.
+
+<br/>
+
+**Step 1&2: Simulation of scRNA-seq, ST data, and LR pairs**
+
+In each simulation round, 4 cell types in ST data are selected and are assigned with the near/far cell-type pair defined in the original ST data (Fig. S3a, using sample A4 as an example). For each cell type, we randomly selected cells from the same cell type in the original scRNA-seq data, and the number of selected cells is based on the number of spots to ensure each spot has approximately 2~5 cells after mapping scRNA-seq cells to ST. Next, the randomly selected cells will be randomly mapped to each spot according to their cell types and replace the spot’s original expression. To keep the real spatial cell-type structure in ST data, we did not change the original coordinates of selected spots. Then for each near/far cell-type pair, 30 interactions are randomly selected, and a semi-synthetic method is applied to scRNA-seq data to replace original expression signals of selected ligand and receptor genes with overexpression signals. 
+- You can use the example codes below to generate scRNA-seq and ST data with overexpressed LR pairs.
+
+```
+nohup python ./scripts/generate_simulation_data.py --sc_count sc_count_path --sc_meta sc_meta_path \
+--st_coord st_coord_path --st_meta st_meta_path \
+--target_ct target_ct_file --output_dir output_dir \
+--nip_per_ctp 30 > nohup.out 2>&1 &
+
+# --sc_count: sc count matrix path
+# --sc_meta: sc meta path
+# --st_coord: ST coord path
+# --st_meta: ST meta path
+# --target_ct: simulated target cell types
+# --output_dir: simulation output dir
+# --nip_per_ctp: simulated interaction number in each cell type pair
+
+```
+
+Example input of target_ct_file, recording the target cell types used in simulation.
+
+```
+Myofibroblast_Mesothelium
+Neural
+Endothelium
+Muscle
+```
+
+In this step, we can generate simulated scRNA-seq and ST data with known overexpressed signals, but we still need to filter these simluated interactions to keep short/long-range interaction consistent with the spatial distance of cell type pairs
+
+<br/>
+
+**Step 3: Filtering simulated interactions to keep short/long-range interaction consistent with the spatial distance of cell type pairs**
+
+Having simulated ST data, short/long-range interactions can be defined following the same procedure used in the real data. Finally, both simulated scRNA-seq and ST data will be re-modified, only overexpression signals of short-range interactions will be kept in the near cell-type pairs, and the same for long-range interactions in the far cell-type pairs. After filtering, around 10 simulated interactions will be kept in each cell-type pair (Fig. S3b, using sample A4 as an example). For the kept simulated interactions, if available, corresponding transcription factors and target genes will also be selected and overexpressed so that the tools based on the transcription factors and targets could be also used.
+- You can use the codes below to filter short/long-range interactions and generate the final scRNA-seq and ST dataset with known overexpressed LR pairs.
+
+```
+# before filtering, the d_rat of each LR pair based on the simulated ST data should be computed to define short/long-range interactions
+nohup python ./scripts/prepare_ip_dis_sinkhorn2.py -c sc_count_path -p st_coord_path -o ./ip_dis_sinkhorn2 &
+
+# then, based on the simulated data generated in the step 1&2, and d_rat, 
+# we can filter overexpressed LR pairs and generate the final dataset
+nohup python ./scripts/generate_simulation_data_pa.py --sc_origin_count sc_original_count_path --sc_origin_meta sc_original_meta_path \
+--st_coord st_coord_path --sc_round1_count_path sc_round1_count_path --sc_round1_meta_path sc_round1_meta_path \
+--target_ct_distype_path target_ct_distype_path --target_ctp_ip_tf_path target_ctp_ip_tf_path \
+--d_rat_path d_rat_path --simu_spot_cell_dic_path simu_spot_cell_dic_path > nohup_round2.out 2>&1 &
+
+# --sc_origin_count: the original sc count matrix path (before simulation) 
+# --sc_origin_meta: the original sc meta path (before simulation)
+# --st_coord: ST coord path
+# --sc_round1_count_path: the count file of the simulated scRNA-seq data generated in the step 1&2
+# --sc_round1_meta_path: the meta file of the simulated scRNA-seq data generated in the step 1&2
+# --target_ct_distype_path: the target simulated cell types and their distance type, generated in step 1&2
+# --target_ctp_ip_tf_path: recording the selected simulated LR pairs & TFs & target genes, generated in step 1&2
+# --d_rat_path: d_rat, computed based on the ST data generated in step 1&2
+# --simu_spot_cell_dic_path: recording the mapping between cells and spots, generated in step 1&2
+```
+
+<br/>
+
+All the tool predicted results and the DES score for each simulation round are stored under `./data_simulation`. And the codes for producing the final DES boxplot from all simulated datasets are at `./data_simulation/extract_result.ipynb`.
+
+
 
 
 

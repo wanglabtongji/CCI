@@ -1,0 +1,2 @@
+screen -x giotto -p 0 -X stuff "cd /fs/home/liuzhaoyang/project/cci_evaluation/human_intestinal/ST_A3_GSM4797918 && nohup time -v Rscript /fs/home/liuzhaoyang/project/cci_evaluation/scripts/run_giotto.R -c ./data/processed/st_counts.tsv -m ./data/processed/st_meta.tsv -p ./data/processed/st_coord.tsv -o ./tools/Giotto/output > ./tools/Giotto/script/Giotto_nohup.out 2>&1 &
+"

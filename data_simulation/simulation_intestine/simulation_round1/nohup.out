@@ -1,0 +1,108 @@
+near(0): 8; far(1): 2; mid(2): 5
+> all near celltypes
+['Epithelial|Muscle', 'Epithelial|Fibroblasts', 'Endothelium|Muscle', 'Endothelium|Neural', 'Endothelium|Fibroblasts', 'Muscle|Neural', 'Muscle|Fibroblasts', 'Neural|Fibroblasts']
+> all far celltypes
+['Endothelium|Myofibroblast_Mesothelium', 'Myofibroblast_Mesothelium|Neural']
+> target celltypes
+Myofibroblast_Mesothelium, Neural, Endothelium, Muscle
+> 280 spots are selected
+> spot number of target celltypes
+Myofibroblast_Mesothelium: 10,
+Neural: 81,
+Endothelium: 13,
+Muscle: 176,
+> randomly selected cell number of target celltypes
+Myofibroblast_Mesothelium: 30,
+Neural: 405,
+Endothelium: 31,
+Muscle: 563,
+> 1029 cells are randomly selected
+> near celltype pairs
+Neural|Muscle
+Muscle|Endothelium
+Neural|Endothelium
+Endothelium|Neural
+Endothelium|Muscle
+Muscle|Neural
+> far celltype pairs
+Neural|Myofibroblast_Mesothelium
+Myofibroblast_Mesothelium|Neural
+Myofibroblast_Mesothelium|Endothelium
+Endothelium|Myofibroblast_Mesothelium
+after filtering, 10886 genes are left
+after filtering, 820 interactions are kept
+> simulation start
+> simulation done
+> 1029 cells are mapped
+near(0): 8; far(1): 2; mid(2): 5
+> all near celltypes
+['Muscle|Neural', 'Muscle|Fibroblasts', 'Muscle|Endothelium', 'Muscle|Epithelial', 'Neural|Fibroblasts', 'Neural|Endothelium', 'Fibroblasts|Endothelium', 'Fibroblasts|Epithelial']
+> all far celltypes
+['Myofibroblast_Mesothelium|Neural', 'Myofibroblast_Mesothelium|Endothelium']
+> target celltypes
+Myofibroblast_Mesothelium, Neural, Endothelium, Muscle
+> 280 spots are selected
+> spot number of target celltypes
+Myofibroblast_Mesothelium: 10,
+Neural: 81,
+Endothelium: 13,
+Muscle: 176,
+> randomly selected cell number of target celltypes
+Myofibroblast_Mesothelium: 30,
+Neural: 405,
+Endothelium: 31,
+Muscle: 563,
+> 1029 cells are randomly selected
+> near celltype pairs
+Muscle|Endothelium
+Muscle|Neural
+Neural|Muscle
+Neural|Endothelium
+Endothelium|Neural
+Endothelium|Muscle
+> far celltype pairs
+Myofibroblast_Mesothelium|Endothelium
+Myofibroblast_Mesothelium|Neural
+Neural|Myofibroblast_Mesothelium
+Endothelium|Myofibroblast_Mesothelium
+after filtering, 10886 genes are left
+after filtering, 820 interactions are kept
+> simulation start
+> simulation done
+> 1029 cells are mapped
+near(0): 8; far(1): 2; mid(2): 5
+> all near celltypes
+['Muscle|Epithelial', 'Muscle|Endothelium', 'Muscle|Neural', 'Muscle|Fibroblasts', 'Epithelial|Fibroblasts', 'Endothelium|Neural', 'Endothelium|Fibroblasts', 'Neural|Fibroblasts']
+> all far celltypes
+['Myofibroblast_Mesothelium|Endothelium', 'Myofibroblast_Mesothelium|Neural']
+> target celltypes
+Myofibroblast_Mesothelium, Neural, Endothelium, Muscle
+> 280 spots are selected
+> spot number of target celltypes
+Myofibroblast_Mesothelium: 10,
+Neural: 81,
+Endothelium: 13,
+Muscle: 176,
+> randomly selected cell number of target celltypes
+Myofibroblast_Mesothelium: 30,
+Neural: 405,
+Endothelium: 31,
+Muscle: 563,
+> 1029 cells are randomly selected
+> near celltype pairs
+Muscle|Endothelium
+Neural|Muscle
+Endothelium|Neural
+Muscle|Neural
+Neural|Endothelium
+Endothelium|Muscle
+> far celltype pairs
+Neural|Myofibroblast_Mesothelium
+Myofibroblast_Mesothelium|Neural
+Myofibroblast_Mesothelium|Endothelium
+Endothelium|Myofibroblast_Mesothelium
+after filtering, 10886 genes are left
+after filtering, 820 interactions are kept
+> simulation start
+> simulation done
+> 1029 cells are mapped
